@@ -1,0 +1,1366 @@
+{
+  "dataset": {
+    "imagenes": 2000,
+    "grupos_conectados": 395,
+    "hashes_exactos_entre_particiones_originales": 30,
+    "grupos_nombre_entre_particiones_originales": 248,
+    "grupos_con_etiquetas_mixtas": [
+      {
+        "grupo": "G0065",
+        "etiquetas": [
+          0,
+          2
+        ],
+        "archivos": [
+          "bam5_Img2_A80_S5_[1][9].png",
+          "bam5_Img2_A80_S5_[8][10].png"
+        ]
+      },
+      {
+        "grupo": "G0097",
+        "etiquetas": [
+          0,
+          3
+        ],
+        "archivos": [
+          "RRT-102R_Img1_A80_S4_[10][9].png",
+          "RRT-102R_Img1_A80_S4_[28][12].png",
+          "RRT-102R_Img1_A80_S4_[32][11].png",
+          "RRT-102R_Img1_A80_S4_[32][8].png",
+          "RRT-102R_Img1_A80_S4_[2][3].png"
+        ]
+      },
+      {
+        "grupo": "G0102",
+        "etiquetas": [
+          0,
+          1
+        ],
+        "archivos": [
+          "RRT-102R_Img2_A80_S5_[17][7].png",
+          "RRT-102R_Img2_A80_S5_[10][24].png",
+          "RRT-102R_Img2_A80_S5_[14][4].png"
+        ]
+      },
+      {
+        "grupo": "G0024",
+        "etiquetas": [
+          0,
+          1
+        ],
+        "archivos": [
+          "RRT-102R_Img3_A80_S5_[18][4].png",
+          "RRT-102R_Img3_A80_S5_[5][13].png"
+        ]
+      },
+      {
+        "grupo": "G0191",
+        "etiquetas": [
+          0,
+          3
+        ],
+        "archivos": [
+          "RRT-13R_Img1_A80_S5_[13][64].png",
+          "RRT-13R_Img1_A80_S5_[15][47].png",
+          "RRT-13R_Img1_A80_S5_[18][38].png",
+          "RRT-13R_Img1_A80_S5_[9][86].png",
+          "RRT-13R_Img1_A80_S5_[13][8].png",
+          "RRT-13R_Img1_A80_S5_[17][64].png",
+          "RRT-13R_Img1_A80_S5_[18][55].png",
+          "RRT-13R_Img1_A80_S5_[19][17].png",
+          "RRT-13R_Img1_A80_S5_[5][1].png",
+          "RRT-13R_Img1_A80_S5_[6][27].png",
+          "RRT-13R_Img1_A80_S5_[16][55].png"
+        ]
+      },
+      {
+        "grupo": "G0193",
+        "etiquetas": [
+          0,
+          1
+        ],
+        "archivos": [
+          "RRT-13R_Img2_A80_S2_[5][32].png",
+          "RRT-13R_Img2_A80_S2_[6][43].png",
+          "RRT-13R_Img2_A80_S2_[13][24].png",
+          "RRT-13R_Img2_A80_S2_[13][33].png",
+          "RRT-13R_Img2_A80_S2_[6][37].png",
+          "RRT-13R_Img2_A80_S2_[6][43].png"
+        ]
+      },
+      {
+        "grupo": "G0033",
+        "etiquetas": [
+          0,
+          1
+        ],
+        "archivos": [
+          "RRT-13R_Img4_A80_S2_[3][42].png",
+          "RRT-13R_Img4_A80_S2_[12][35].png",
+          "RRT-13R_Img4_A80_S2_[13][24].png"
+        ]
+      },
+      {
+        "grupo": "G0246",
+        "etiquetas": [
+          0,
+          1
+        ],
+        "archivos": [
+          "RRT-22R_Img1_A80_S6_[7][24].png",
+          "RRT-22R_Img1_A80_S6_[3][4].png",
+          "RRT-22R_Img1_A80_S6_[5][22].png",
+          "RRT-22R_Img1_A80_S6_[3][40].png",
+          "RRT-22R_Img1_A80_S6_[3][8].png"
+        ]
+      },
+      {
+        "grupo": "G0247",
+        "etiquetas": [
+          0,
+          1
+        ],
+        "archivos": [
+          "RRT-22R_Img2_A80_S2_[2][18].png",
+          "RRT-22R_Img2_A80_S2_[2][22].png",
+          "RRT-22R_Img2_A80_S2_[3][43].png",
+          "RRT-22R_Img2_A80_S2_[3][43].png"
+        ]
+      },
+      {
+        "grupo": "G0038",
+        "etiquetas": [
+          0,
+          1
+        ],
+        "archivos": [
+          "RRT-22R_Img3_A80_S2_[1][4].png",
+          "RRT-22R_Img3_A80_S2_[1][8].png",
+          "RRT-22R_Img3_A80_S2_[2][39].png"
+        ]
+      },
+      {
+        "grupo": "G0041",
+        "etiquetas": [
+          0,
+          1
+        ],
+        "archivos": [
+          "RRT-22R_Img3_A80_S6_[2][20].png",
+          "RRT-22R_Img3_A80_S6_[2][28].png",
+          "RRT-22R_Img3_A80_S6_[6][21].png",
+          "RRT-22R_Img3_A80_S6_[1][5].png",
+          "RRT-22R_Img3_A80_S6_[9][32].png"
+        ]
+      },
+      {
+        "grupo": "G0131",
+        "etiquetas": [
+          0,
+          1
+        ],
+        "archivos": [
+          "RRT-22R_Img4_A80_S2_[1][8].png",
+          "RRT-22R_Img4_A80_S2_[4][5].png",
+          "RRT-22R_Img4_A80_S2_[3][11].png",
+          "RRT-22R_Img4_A80_S2_[3][37].png"
+        ]
+      },
+      {
+        "grupo": "G0249",
+        "etiquetas": [
+          0,
+          1
+        ],
+        "archivos": [
+          "RRT-22R_Img4_A80_S6_[4][24].png",
+          "RRT-22R_Img4_A80_S6_[6][3].png",
+          "RRT-22R_Img4_A80_S6_[6][40].png",
+          "RRT-22R_Img4_A80_S6_[6][42].png",
+          "RRT-22R_Img4_A80_S6_[8][33].png"
+        ]
+      },
+      {
+        "grupo": "G0375",
+        "etiquetas": [
+          0,
+          3
+        ],
+        "archivos": [
+          "RRT-30R_Img1_A80_S1_[3][73].png",
+          "RRT-30R_Img1_A80_S1_[4][34].png",
+          "RRT-30R_Img1_A80_S1_[9][35].png",
+          "RRT-30R_Img1_A80_S1_[9][48].png",
+          "RRT-30R_Img1_A80_S1_[9][56].png",
+          "RRT-30R_Img1_A80_S1_[1][21].png",
+          "RRT-30R_Img1_A80_S1_[7][62].png",
+          "RRT-30R_Img1_A80_S1_[9][53].png",
+          "RRT-30R_Img1_A80_S1_[9][57].png",
+          "RRT-30R_Img1_A80_S1_[3][41].png",
+          "RRT-30R_Img1_A80_S1_[3][55].png",
+          "RRT-30R_Img1_A80_S1_[9][42].png",
+          "RRT-30R_Img1_A80_S1_[9][58].png"
+        ]
+      },
+      {
+        "grupo": "G0280",
+        "etiquetas": [
+          0,
+          1
+        ],
+        "archivos": [
+          "RRT-40R_Img2_A80_S2_[10][19].png",
+          "RRT-40R_Img2_A80_S2_[13][75].png",
+          "RRT-40R_Img2_A80_S2_[2][43].png",
+          "RRT-40R_Img2_A80_S2_[3][86].png",
+          "RRT-40R_Img2_A80_S2_[10][19].png",
+          "RRT-40R_Img2_A80_S2_[2][60].png",
+          "RRT-40R_Img2_A80_S2_[5][8].png"
+        ]
+      },
+      {
+        "grupo": "G0176",
+        "etiquetas": [
+          0,
+          3
+        ],
+        "archivos": [
+          "RRT-88R_Img1_A80_S1_[11][31].png",
+          "RRT-88R_Img1_A80_S1_[7][37].png",
+          "RRT-88R_Img1_A80_S1_[2][15].png",
+          "RRT-88R_Img1_A80_S1_[39][10].png",
+          "RRT-88R_Img1_A80_S1_[3][6].png",
+          "RRT-88R_Img1_A80_S1_[7][8].png",
+          "RRT-88R_Img1_A80_S1_[7][9].png",
+          "RRT-88R_Img1_A80_S1_[4][8].png"
+        ]
+      },
+      {
+        "grupo": "G0388",
+        "etiquetas": [
+          0,
+          3
+        ],
+        "archivos": [
+          "RRT-88R_Img1_A80_S4_[24][25].png",
+          "RRT-88R_Img1_A80_S4_[12][8].png",
+          "RRT-88R_Img1_A80_S4_[17][17].png",
+          "RRT-88R_Img1_A80_S4_[31][16].png",
+          "RRT-88R_Img1_A80_S4_[12][7].png",
+          "RRT-88R_Img1_A80_S4_[31][15].png",
+          "RRT-88R_Img1_A80_S4_[26][16].png",
+          "RRT-88R_Img1_A80_S4_[15][19].png",
+          "RRT-88R_Img1_A80_S4_[16][7].png"
+        ]
+      },
+      {
+        "grupo": "G0287",
+        "etiquetas": [
+          0,
+          1
+        ],
+        "archivos": [
+          "RRT-88R_Img2_A80_S5_[20][30].png",
+          "RRT-88R_Img2_A80_S5_[15][3].png",
+          "RRT-88R_Img2_A80_S5_[22][19].png",
+          "RRT-88R_Img2_A80_S5_[15][6].png",
+          "RRT-88R_Img2_A80_S5_[18][5].png"
+        ]
+      },
+      {
+        "grupo": "G0288",
+        "etiquetas": [
+          0,
+          1
+        ],
+        "archivos": [
+          "RRT-88R_Img3_A80_S4_[27][17].png",
+          "RRT-88R_Img3_A80_S4_[18][40].png",
+          "RRT-88R_Img3_A80_S4_[24][29].png",
+          "RRT-88R_Img3_A80_S4_[20][43].png"
+        ]
+      },
+      {
+        "grupo": "G0289",
+        "etiquetas": [
+          0,
+          1
+        ],
+        "archivos": [
+          "RRT-88R_Img3_A80_S5_[20][16].png",
+          "RRT-88R_Img3_A80_S5_[24][29].png",
+          "RRT-88R_Img3_A80_S5_[16][3].png",
+          "RRT-88R_Img3_A80_S5_[17][1].png",
+          "RRT-88R_Img3_A80_S5_[20][16].png",
+          "RRT-88R_Img3_A80_S5_[23][29].png",
+          "RRT-88R_Img3_A80_S5_[25][35].png",
+          "RRT-88R_Img3_A80_S5_[18][5].png"
+        ]
+      },
+      {
+        "grupo": "G0215",
+        "etiquetas": [
+          0,
+          1
+        ],
+        "archivos": [
+          "RRT-88R_Img4_A80_S4_[23][24].png",
+          "RRT-88R_Img4_A80_S4_[27][17].png",
+          "RRT-88R_Img4_A80_S4_[28][15].png",
+          "RRT-88R_Img4_A80_S4_[12][14].png",
+          "RRT-88R_Img4_A80_S4_[19][39].png",
+          "RRT-88R_Img4_A80_S4_[25][32].png",
+          "RRT-88R_Img4_A80_S4_[24][38].png",
+          "RRT-88R_Img4_A80_S4_[26][32].png"
+        ]
+      },
+      {
+        "grupo": "G0391",
+        "etiquetas": [
+          0,
+          3
+        ],
+        "archivos": [
+          "RRT-94R_Img1_A80_S2_[1][36].png",
+          "RRT-94R_Img1_A80_S2_[3][36].png",
+          "RRT-94R_Img1_A80_S2_[3][47].png",
+          "RRT-94R_Img1_A80_S2_[5][34].png",
+          "RRT-94R_Img1_A80_S2_[3][41].png",
+          "RRT-94R_Img1_A80_S2_[4][41].png",
+          "RRT-94R_Img1_A80_S2_[6][22].png",
+          "RRT-94R_Img1_A80_S2_[3][50].png",
+          "RRT-94R_Img1_A80_S2_[5][12].png",
+          "RRT-94R_Img1_A80_S2_[8][42].png",
+          "RRT-94R_Img1_A80_S2_[12][55].png"
+        ]
+      },
+      {
+        "grupo": "G0392",
+        "etiquetas": [
+          0,
+          3
+        ],
+        "archivos": [
+          "RRT-94R_Img1_A80_S3_[4][24].png",
+          "RRT-94R_Img1_A80_S3_[5][41].png",
+          "RRT-94R_Img1_A80_S3_[7][12].png",
+          "RRT-94R_Img1_A80_S3_[9][32].png",
+          "RRT-94R_Img1_A80_S3_[1][12].png",
+          "RRT-94R_Img1_A80_S3_[1][15].png",
+          "RRT-94R_Img1_A80_S3_[1][16].png",
+          "RRT-94R_Img1_A80_S3_[1][23].png",
+          "RRT-94R_Img1_A80_S3_[1][48].png",
+          "RRT-94R_Img1_A80_S3_[1][4].png",
+          "RRT-94R_Img1_A80_S3_[4][12].png",
+          "RRT-94R_Img1_A80_S3_[5][12].png",
+          "RRT-94R_Img1_A80_S3_[8][25].png",
+          "RRT-94R_Img1_A80_S3_[1][3].png",
+          "RRT-94R_Img1_A80_S3_[3][27].png",
+          "RRT-94R_Img1_A80_S3_[4][37].png",
+          "RRT-94R_Img1_A80_S3_[11][46].png"
+        ]
+      },
+      {
+        "grupo": "G0393",
+        "etiquetas": [
+          0,
+          3
+        ],
+        "archivos": [
+          "RRT-99R_Img1_A80_S1_[11][78].png",
+          "RRT-99R_Img1_A80_S1_[12][36].png",
+          "RRT-99R_Img1_A80_S1_[13][76].png",
+          "RRT-99R_Img1_A80_S1_[43][55].png",
+          "RRT-99R_Img1_A80_S1_[5][74].png",
+          "RRT-99R_Img1_A80_S1_[8][74].png",
+          "RRT-99R_Img1_A80_S1_[3][13].png",
+          "RRT-99R_Img1_A80_S1_[3][52].png",
+          "RRT-99R_Img1_A80_S1_[3][53].png",
+          "RRT-99R_Img1_A80_S1_[3][59].png",
+          "RRT-99R_Img1_A80_S1_[3][91].png",
+          "RRT-99R_Img1_A80_S1_[5][88].png",
+          "RRT-99R_Img1_A80_S1_[8][88].png",
+          "RRT-99R_Img1_A80_S1_[8][90].png",
+          "RRT-99R_Img1_A80_S1_[8][93].png",
+          "RRT-99R_Img1_A80_S1_[11][76].png",
+          "RRT-99R_Img1_A80_S1_[1][13].png",
+          "RRT-99R_Img1_A80_S1_[1][23].png",
+          "RRT-99R_Img1_A80_S1_[4][4].png",
+          "RRT-99R_Img1_A80_S1_[6][21].png",
+          "RRT-99R_Img1_A80_S1_[4][78].png",
+          "RRT-99R_Img1_A80_S1_[6][12].png"
+        ]
+      },
+      {
+        "grupo": "G0096",
+        "etiquetas": [
+          1,
+          3
+        ],
+        "archivos": [
+          "RRT-102R_Img1_A80_S3_[3][29].png",
+          "RRT-102R_Img1_A80_S3_[5][43].png",
+          "RRT-102R_Img1_A80_S3_[8][7].png"
+        ]
+      },
+      {
+        "grupo": "G0240",
+        "etiquetas": [
+          1,
+          2
+        ],
+        "archivos": [
+          "RRT-107R_Img4_A80_S2_[14][13].png",
+          "RRT-107R_Img4_A80_S2_[19][18].png",
+          "RRT-107R_Img4_A80_S2_[19][21].png",
+          "RRT-107R_Img4_A80_S2_[9][17].png",
+          "RRT-107R_Img4_A80_S2_[33][15].png",
+          "RRT-107R_Img4_A80_S2_[16][14].png",
+          "RRT-107R_Img4_A80_S2_[12][22].png",
+          "RRT-107R_Img4_A80_S2_[6][17].png"
+        ]
+      },
+      {
+        "grupo": "G0359",
+        "etiquetas": [
+          1,
+          3
+        ],
+        "archivos": [
+          "RRT-12R_Img1_A80_S1_[8][26].png",
+          "RRT-12R_Img1_A80_S1_[13][3].png",
+          "RRT-12R_Img1_A80_S1_[1][41].png",
+          "RRT-12R_Img1_A80_S1_[2][41].png",
+          "RRT-12R_Img1_A80_S1_[5][42].png",
+          "RRT-12R_Img1_A80_S1_[1][2].png",
+          "RRT-12R_Img1_A80_S1_[4][10].png",
+          "RRT-12R_Img1_A80_S1_[5][34].png",
+          "RRT-12R_Img1_A80_S1_[6][31].png",
+          "RRT-12R_Img1_A80_S1_[13][39].png",
+          "RRT-12R_Img1_A80_S1_[1][1].png",
+          "RRT-12R_Img1_A80_S1_[3][32].png",
+          "RRT-12R_Img1_A80_S1_[8][34].png",
+          "RRT-12R_Img1_A80_S1_[13][36].png"
+        ]
+      },
+      {
+        "grupo": "G0360",
+        "etiquetas": [
+          1,
+          3
+        ],
+        "archivos": [
+          "RRT-12R_Img1_A80_S2_[1][159].png",
+          "RRT-12R_Img1_A80_S2_[1][90].png",
+          "RRT-12R_Img1_A80_S2_[2][35].png",
+          "RRT-12R_Img1_A80_S2_[3][130].png",
+          "RRT-12R_Img1_A80_S2_[3][36].png",
+          "RRT-12R_Img1_A80_S2_[3][88].png",
+          "RRT-12R_Img1_A80_S2_[5][69].png",
+          "RRT-12R_Img1_A80_S2_[5][70].png",
+          "RRT-12R_Img1_A80_S2_[6][172].png",
+          "RRT-12R_Img1_A80_S2_[6][21].png",
+          "RRT-12R_Img1_A80_S2_[6][69].png",
+          "RRT-12R_Img1_A80_S2_[7][21].png",
+          "RRT-12R_Img1_A80_S2_[7][32].png",
+          "RRT-12R_Img1_A80_S2_[10][146].png",
+          "RRT-12R_Img1_A80_S2_[10][156].png",
+          "RRT-12R_Img1_A80_S2_[10][18].png",
+          "RRT-12R_Img1_A80_S2_[1][147].png",
+          "RRT-12R_Img1_A80_S2_[1][54].png",
+          "RRT-12R_Img1_A80_S2_[1][82].png",
+          "RRT-12R_Img1_A80_S2_[2][3].png",
+          "RRT-12R_Img1_A80_S2_[2][5].png",
+          "RRT-12R_Img1_A80_S2_[3][101].png",
+          "RRT-12R_Img1_A80_S2_[3][103].png",
+          "RRT-12R_Img1_A80_S2_[5][109].png",
+          "RRT-12R_Img1_A80_S2_[6][110].png",
+          "RRT-12R_Img1_A80_S2_[6][184].png",
+          "RRT-12R_Img1_A80_S2_[6][185].png",
+          "RRT-12R_Img1_A80_S2_[8][107].png",
+          "RRT-12R_Img1_A80_S2_[8][122].png",
+          "RRT-12R_Img1_A80_S2_[8][190].png",
+          "RRT-12R_Img1_A80_S2_[8][195].png",
+          "RRT-12R_Img1_A80_S2_[9][108].png",
+          "RRT-12R_Img1_A80_S2_[2][169].png",
+          "RRT-12R_Img1_A80_S2_[2][89].png",
+          "RRT-12R_Img1_A80_S2_[5][203].png",
+          "RRT-12R_Img1_A80_S2_[6][202].png",
+          "RRT-12R_Img1_A80_S2_[10][151].png",
+          "RRT-12R_Img1_A80_S2_[1][152].png",
+          "RRT-12R_Img1_A80_S2_[1][179].png",
+          "RRT-12R_Img1_A80_S2_[3][107].png",
+          "RRT-12R_Img1_A80_S2_[5][47].png",
+          "RRT-12R_Img1_A80_S2_[6][106].png",
+          "RRT-12R_Img1_A80_S2_[6][195].png",
+          "RRT-12R_Img1_A80_S2_[6][55].png",
+          "RRT-12R_Img1_A80_S2_[7][108].png",
+          "RRT-12R_Img1_A80_S2_[7][112].png",
+          "RRT-12R_Img1_A80_S2_[8][108].png",
+          "RRT-12R_Img1_A80_S2_[2][130].png",
+          "RRT-12R_Img1_A80_S2_[2][35].png",
+          "RRT-12R_Img1_A80_S2_[10][168].png",
+          "RRT-12R_Img1_A80_S2_[10][25].png",
+          "RRT-12R_Img1_A80_S2_[1][183].png",
+          "RRT-12R_Img1_A80_S2_[1][51].png",
+          "RRT-12R_Img1_A80_S2_[1][74].png",
+          "RRT-12R_Img1_A80_S2_[5][117].png",
+          "RRT-12R_Img1_A80_S2_[6][110].png",
+          "RRT-12R_Img1_A80_S2_[6][113].png",
+          "RRT-12R_Img1_A80_S2_[6][183].png",
+          "RRT-12R_Img1_A80_S2_[6][192].png",
+          "RRT-12R_Img1_A80_S2_[6][46].png",
+          "RRT-12R_Img1_A80_S2_[7][75].png",
+          "RRT-12R_Img1_A80_S2_[8][109].png",
+          "RRT-12R_Img1_A80_S2_[8][114].png"
+        ]
+      },
+      {
+        "grupo": "G0129",
+        "etiquetas": [
+          1,
+          3
+        ],
+        "archivos": [
+          "RRT-12R_Img2_A80_S2_[2][205].png",
+          "RRT-12R_Img2_A80_S2_[3][164].png",
+          "RRT-12R_Img2_A80_S2_[3][70].png",
+          "RRT-12R_Img2_A80_S2_[6][18].png",
+          "RRT-12R_Img2_A80_S2_[7][163].png",
+          "RRT-12R_Img2_A80_S2_[13][175].png",
+          "RRT-12R_Img2_A80_S2_[13][194].png",
+          "RRT-12R_Img2_A80_S2_[13][203].png",
+          "RRT-12R_Img2_A80_S2_[2][21].png",
+          "RRT-12R_Img2_A80_S2_[3][137].png",
+          "RRT-12R_Img2_A80_S2_[6][91].png"
+        ]
+      },
+      {
+        "grupo": "G0362",
+        "etiquetas": [
+          1,
+          3
+        ],
+        "archivos": [
+          "RRT-12R_Img4_A80_S2_[1][91].png",
+          "RRT-12R_Img4_A80_S2_[3][133].png",
+          "RRT-12R_Img4_A80_S2_[3][138].png",
+          "RRT-12R_Img4_A80_S2_[3][204].png",
+          "RRT-12R_Img4_A80_S2_[4][139].png",
+          "RRT-12R_Img4_A80_S2_[5][201].png",
+          "RRT-12R_Img4_A80_S2_[6][36].png",
+          "RRT-12R_Img4_A80_S2_[7][135].png",
+          "RRT-12R_Img4_A80_S2_[7][137].png",
+          "RRT-12R_Img4_A80_S2_[13][113].png",
+          "RRT-12R_Img4_A80_S2_[13][116].png",
+          "RRT-12R_Img4_A80_S2_[13][125].png",
+          "RRT-12R_Img4_A80_S2_[13][186].png",
+          "RRT-12R_Img4_A80_S2_[13][204].png",
+          "RRT-12R_Img4_A80_S2_[2][204].png",
+          "RRT-12R_Img4_A80_S2_[3][160].png",
+          "RRT-12R_Img4_A80_S2_[4][133].png",
+          "RRT-12R_Img4_A80_S2_[5][35].png",
+          "RRT-12R_Img4_A80_S2_[7][66].png",
+          "RRT-12R_Img4_A80_S2_[13][128].png",
+          "RRT-12R_Img4_A80_S2_[13][191].png",
+          "RRT-12R_Img4_A80_S2_[3][138].png",
+          "RRT-12R_Img4_A80_S2_[4][130].png",
+          "RRT-12R_Img4_A80_S2_[4][136].png",
+          "RRT-12R_Img4_A80_S2_[13][194].png",
+          "RRT-12R_Img4_A80_S2_[13][31].png"
+        ]
+      },
+      {
+        "grupo": "G0200",
+        "etiquetas": [
+          0,
+          1
+        ],
+        "archivos": [
+          "RRT-22R_Img2_A80_S6_[2][41].png",
+          "RRT-22R_Img2_A80_S6_[2][5].png",
+          "RRT-22R_Img2_A80_S6_[10][36].png",
+          "RRT-22R_Img2_A80_S6_[4][27].png",
+          "RRT-22R_Img2_A80_S6_[5][20].png"
+        ]
+      },
+      {
+        "grupo": "G0319",
+        "etiquetas": [
+          1,
+          2,
+          3
+        ],
+        "archivos": [
+          "RRT-26R_Img1_A80_S4_[13][60].png",
+          "RRT-26R_Img1_A80_S4_[7][48].png",
+          "RRT-26R_Img1_A80_S4_[2][2].png",
+          "RRT-26R_Img1_A80_S4_[2][6].png",
+          "RRT-26R_Img1_A80_S4_[3][88].png",
+          "RRT-26R_Img1_A80_S4_[8][87].png",
+          "RRT-26R_Img1_A80_S4_[9][14].png",
+          "RRT-26R_Img1_A80_S4_[9][76].png",
+          "RRT-26R_Img1_A80_S4_[13][38].png"
+        ]
+      },
+      {
+        "grupo": "G0371",
+        "etiquetas": [
+          1,
+          3
+        ],
+        "archivos": [
+          "RRT-26R_Img1_A80_S5_[10][19].png",
+          "RRT-26R_Img1_A80_S5_[7][48].png",
+          "RRT-26R_Img1_A80_S5_[1][39].png",
+          "RRT-26R_Img1_A80_S5_[1][47].png",
+          "RRT-26R_Img1_A80_S5_[1][56].png",
+          "RRT-26R_Img1_A80_S5_[1][60].png",
+          "RRT-26R_Img1_A80_S5_[1][61].png",
+          "RRT-26R_Img1_A80_S5_[3][37].png",
+          "RRT-26R_Img1_A80_S5_[4][29].png",
+          "RRT-26R_Img1_A80_S5_[4][75].png",
+          "RRT-26R_Img1_A80_S5_[1][24].png",
+          "RRT-26R_Img1_A80_S5_[4][15].png"
+        ]
+      },
+      {
+        "grupo": "G0160",
+        "etiquetas": [
+          1,
+          2
+        ],
+        "archivos": [
+          "RRT-26R_Img2_A80_S3_[11][81].png",
+          "RRT-26R_Img2_A80_S3_[12][20].png",
+          "RRT-26R_Img2_A80_S3_[13][3].png",
+          "RRT-26R_Img2_A80_S3_[13][5].png",
+          "RRT-26R_Img2_A80_S3_[12][4].png",
+          "RRT-26R_Img2_A80_S3_[15][2].png"
+        ]
+      },
+      {
+        "grupo": "G0162",
+        "etiquetas": [
+          1,
+          2
+        ],
+        "archivos": [
+          "RRT-26R_Img3_A80_S3_[10][64].png",
+          "RRT-26R_Img3_A80_S3_[12][20].png",
+          "RRT-26R_Img3_A80_S3_[13][76].png",
+          "RRT-26R_Img3_A80_S3_[16][63].png",
+          "RRT-26R_Img3_A80_S3_[10][78].png"
+        ]
+      },
+      {
+        "grupo": "G0326",
+        "etiquetas": [
+          1,
+          2
+        ],
+        "archivos": [
+          "RRT-26R_Img3_A80_S4_[9][49].png",
+          "RRT-26R_Img3_A80_S4_[10][21].png",
+          "RRT-26R_Img3_A80_S4_[10][2].png",
+          "RRT-26R_Img3_A80_S4_[11][14].png",
+          "RRT-26R_Img3_A80_S4_[11][18].png",
+          "RRT-26R_Img3_A80_S4_[12][71].png",
+          "RRT-26R_Img3_A80_S4_[7][74].png",
+          "RRT-26R_Img3_A80_S4_[8][18].png",
+          "RRT-26R_Img3_A80_S4_[8][87].png",
+          "RRT-26R_Img3_A80_S4_[10][79].png",
+          "RRT-26R_Img3_A80_S4_[9][53].png",
+          "RRT-26R_Img3_A80_S4_[10][80].png",
+          "RRT-26R_Img3_A80_S4_[9][32].png"
+        ]
+      },
+      {
+        "grupo": "G0074",
+        "etiquetas": [
+          1,
+          2
+        ],
+        "archivos": [
+          "RRT-26R_Img3_A80_S6_[5][10].png",
+          "RRT-26R_Img3_A80_S6_[9][3].png"
+        ]
+      },
+      {
+        "grupo": "G0329",
+        "etiquetas": [
+          1,
+          2
+        ],
+        "archivos": [
+          "RRT-26R_Img4_A80_S3_[12][70].png",
+          "RRT-26R_Img4_A80_S3_[9][71].png",
+          "RRT-26R_Img4_A80_S3_[13][1].png",
+          "RRT-26R_Img4_A80_S3_[14][20].png",
+          "RRT-26R_Img4_A80_S3_[9][92].png",
+          "RRT-26R_Img4_A80_S3_[12][13].png",
+          "RRT-26R_Img4_A80_S3_[13][57].png"
+        ]
+      },
+      {
+        "grupo": "G0330",
+        "etiquetas": [
+          1,
+          2
+        ],
+        "archivos": [
+          "RRT-26R_Img4_A80_S4_[10][46].png",
+          "RRT-26R_Img4_A80_S4_[12][46].png",
+          "RRT-26R_Img4_A80_S4_[10][18].png",
+          "RRT-26R_Img4_A80_S4_[10][54].png",
+          "RRT-26R_Img4_A80_S4_[10][86].png",
+          "RRT-26R_Img4_A80_S4_[11][67].png",
+          "RRT-26R_Img4_A80_S4_[11][78].png",
+          "RRT-26R_Img4_A80_S4_[12][34].png",
+          "RRT-26R_Img4_A80_S4_[8][87].png",
+          "RRT-26R_Img4_A80_S4_[9][35].png",
+          "RRT-26R_Img4_A80_S4_[9][85].png",
+          "RRT-26R_Img4_A80_S4_[9][71].png",
+          "RRT-26R_Img4_A80_S4_[8][17].png",
+          "RRT-26R_Img4_A80_S4_[8][79].png",
+          "RRT-26R_Img4_A80_S4_[9][79].png",
+          "RRT-26R_Img4_A80_S4_[9][92].png"
+        ]
+      },
+      {
+        "grupo": "G0251",
+        "etiquetas": [
+          1,
+          2
+        ],
+        "archivos": [
+          "RRT-26R_Img4_A80_S5_[8][90].png",
+          "RRT-26R_Img4_A80_S5_[10][10].png",
+          "RRT-26R_Img4_A80_S5_[11][27].png",
+          "RRT-26R_Img4_A80_S5_[12][36].png",
+          "RRT-26R_Img4_A80_S5_[8][63].png",
+          "RRT-26R_Img4_A80_S5_[9][36].png",
+          "RRT-26R_Img4_A80_S5_[13][18].png",
+          "RRT-26R_Img4_A80_S5_[8][23].png"
+        ]
+      },
+      {
+        "grupo": "G0252",
+        "etiquetas": [
+          1,
+          2
+        ],
+        "archivos": [
+          "RRT-26R_Img4_A80_S6_[12][8].png",
+          "RRT-26R_Img4_A80_S6_[5][29].png",
+          "RRT-26R_Img4_A80_S6_[5][39].png",
+          "RRT-26R_Img4_A80_S6_[8][70].png",
+          "RRT-26R_Img4_A80_S6_[9][55].png",
+          "RRT-26R_Img4_A80_S6_[9][68].png",
+          "RRT-26R_Img4_A80_S6_[11][15].png",
+          "RRT-26R_Img4_A80_S6_[9][12].png"
+        ]
+      },
+      {
+        "grupo": "G0075",
+        "etiquetas": [
+          1,
+          2
+        ],
+        "archivos": [
+          "RRT-26R_Img4_A80_S7_[10][40].png",
+          "RRT-26R_Img4_A80_S7_[9][30].png",
+          "RRT-26R_Img4_A80_S7_[10][16].png"
+        ]
+      },
+      {
+        "grupo": "G0334",
+        "etiquetas": [
+          1,
+          2
+        ],
+        "archivos": [
+          "RRT-27R_Img2_A80_S2_[11][22].png",
+          "RRT-27R_Img2_A80_S2_[6][23].png",
+          "RRT-27R_Img2_A80_S2_[6][10].png"
+        ]
+      },
+      {
+        "grupo": "G0336",
+        "etiquetas": [
+          1,
+          2
+        ],
+        "archivos": [
+          "RRT-27R_Img2_A80_S6_[2][29].png",
+          "RRT-27R_Img2_A80_S6_[2][28].png",
+          "RRT-27R_Img2_A80_S6_[2][6].png"
+        ]
+      },
+      {
+        "grupo": "G0337",
+        "etiquetas": [
+          1,
+          2
+        ],
+        "archivos": [
+          "RRT-27R_Img4_A80_S2_[5][23].png",
+          "RRT-27R_Img4_A80_S2_[10][14].png",
+          "RRT-27R_Img4_A80_S2_[10][11].png"
+        ]
+      },
+      {
+        "grupo": "G0340",
+        "etiquetas": [
+          1,
+          2
+        ],
+        "archivos": [
+          "RRT-27R_Img4_A80_S6_[1][30].png",
+          "RRT-27R_Img4_A80_S6_[1][15].png",
+          "RRT-27R_Img4_A80_S6_[2][15].png",
+          "RRT-27R_Img4_A80_S6_[3][6].png",
+          "RRT-27R_Img4_A80_S6_[4][5].png",
+          "RRT-27R_Img4_A80_S6_[5][14].png",
+          "RRT-27R_Img4_A80_S6_[6][11].png",
+          "RRT-27R_Img4_A80_S6_[1][13].png",
+          "RRT-27R_Img4_A80_S6_[2][9].png",
+          "RRT-27R_Img4_A80_S6_[4][3].png",
+          "RRT-27R_Img4_A80_S6_[6][11].png"
+        ]
+      },
+      {
+        "grupo": "G0342",
+        "etiquetas": [
+          1,
+          2
+        ],
+        "archivos": [
+          "RRT-28R_Img2_A80_S2_[5][43].png",
+          "RRT-28R_Img2_A80_S2_[5][45].png",
+          "RRT-28R_Img2_A80_S2_[3][13].png",
+          "RRT-28R_Img2_A80_S2_[5][15].png",
+          "RRT-28R_Img2_A80_S2_[5][35].png",
+          "RRT-28R_Img2_A80_S2_[8][26].png",
+          "RRT-28R_Img2_A80_S2_[7][27].png",
+          "RRT-28R_Img2_A80_S2_[8][17].png",
+          "RRT-28R_Img2_A80_S2_[3][18].png",
+          "RRT-28R_Img2_A80_S2_[4][21].png"
+        ]
+      },
+      {
+        "grupo": "G0255",
+        "etiquetas": [
+          1,
+          2
+        ],
+        "archivos": [
+          "RRT-28R_Img2_A80_S5_[5][11].png",
+          "RRT-28R_Img2_A80_S5_[7][9].png",
+          "RRT-28R_Img2_A80_S5_[3][28].png",
+          "RRT-28R_Img2_A80_S5_[8][8].png"
+        ]
+      },
+      {
+        "grupo": "G0257",
+        "etiquetas": [
+          1,
+          2
+        ],
+        "archivos": [
+          "RRT-28R_Img2_A80_S7_[5][11].png",
+          "RRT-28R_Img2_A80_S7_[7][11].png",
+          "RRT-28R_Img2_A80_S7_[7][17].png",
+          "RRT-28R_Img2_A80_S7_[4][40].png",
+          "RRT-28R_Img2_A80_S7_[5][43].png",
+          "RRT-28R_Img2_A80_S7_[3][21].png"
+        ]
+      },
+      {
+        "grupo": "G0344",
+        "etiquetas": [
+          1,
+          2
+        ],
+        "archivos": [
+          "RRT-28R_Img3_A80_S2_[6][46].png",
+          "RRT-28R_Img3_A80_S2_[3][26].png",
+          "RRT-28R_Img3_A80_S2_[5][17].png",
+          "RRT-28R_Img3_A80_S2_[5][37].png",
+          "RRT-28R_Img3_A80_S2_[6][27].png",
+          "RRT-28R_Img3_A80_S2_[7][19].png",
+          "RRT-28R_Img3_A80_S2_[8][36].png",
+          "RRT-28R_Img3_A80_S2_[7][19].png"
+        ]
+      },
+      {
+        "grupo": "G0134",
+        "etiquetas": [
+          1,
+          2
+        ],
+        "archivos": [
+          "RRT-28R_Img4_A80_S3_[5][38].png",
+          "RRT-28R_Img4_A80_S3_[7][38].png",
+          "RRT-28R_Img4_A80_S3_[7][19].png",
+          "RRT-28R_Img4_A80_S3_[8][1].png"
+        ]
+      },
+      {
+        "grupo": "G0167",
+        "etiquetas": [
+          1,
+          2
+        ],
+        "archivos": [
+          "RRT-29R_Img2_A80_S4_[12][63].png",
+          "RRT-29R_Img2_A80_S4_[13][37].png",
+          "RRT-29R_Img2_A80_S4_[8][62].png",
+          "RRT-29R_Img2_A80_S4_[13][10].png",
+          "RRT-29R_Img2_A80_S4_[9][7].png"
+        ]
+      },
+      {
+        "grupo": "G0261",
+        "etiquetas": [
+          1,
+          2
+        ],
+        "archivos": [
+          "RRT-29R_Img4_A80_S4_[11][63].png",
+          "RRT-29R_Img4_A80_S4_[14][62].png",
+          "RRT-29R_Img4_A80_S4_[8][65].png",
+          "RRT-29R_Img4_A80_S4_[12][9].png",
+          "RRT-29R_Img4_A80_S4_[15][7].png",
+          "RRT-29R_Img4_A80_S4_[15][9].png",
+          "RRT-29R_Img4_A80_S4_[10][62].png",
+          "RRT-29R_Img4_A80_S4_[10][65].png",
+          "RRT-29R_Img4_A80_S4_[9][59].png"
+        ]
+      },
+      {
+        "grupo": "G0376",
+        "etiquetas": [
+          1,
+          3
+        ],
+        "archivos": [
+          "RRT-30R_Img1_A80_S3_[10][29].png",
+          "RRT-30R_Img1_A80_S3_[17][25].png"
+        ]
+      },
+      {
+        "grupo": "G0377",
+        "etiquetas": [
+          1,
+          3
+        ],
+        "archivos": [
+          "RRT-31R_Img1_A80_S1_[10][28].png",
+          "RRT-31R_Img1_A80_S1_[6][4].png",
+          "RRT-31R_Img1_A80_S1_[8][25].png",
+          "RRT-31R_Img1_A80_S1_[9][2].png",
+          "RRT-31R_Img1_A80_S1_[17][31].png",
+          "RRT-31R_Img1_A80_S1_[17][4].png",
+          "RRT-31R_Img1_A80_S1_[18][6].png",
+          "RRT-31R_Img1_A80_S1_[2][16].png",
+          "RRT-31R_Img1_A80_S1_[2][1].png",
+          "RRT-31R_Img1_A80_S1_[2][2].png",
+          "RRT-31R_Img1_A80_S1_[2][31].png",
+          "RRT-31R_Img1_A80_S1_[3][5].png",
+          "RRT-31R_Img1_A80_S1_[8][27].png",
+          "RRT-31R_Img1_A80_S1_[16][25].png"
+        ]
+      },
+      {
+        "grupo": "G0378",
+        "etiquetas": [
+          1,
+          3
+        ],
+        "archivos": [
+          "RRT-31R_Img1_A80_S3_[12][21].png",
+          "RRT-31R_Img1_A80_S3_[13][8].png",
+          "RRT-31R_Img1_A80_S3_[11][30].png",
+          "RRT-31R_Img1_A80_S3_[11][36].png",
+          "RRT-31R_Img1_A80_S3_[12][38].png",
+          "RRT-31R_Img1_A80_S3_[14][27].png",
+          "RRT-31R_Img1_A80_S3_[4][2].png",
+          "RRT-31R_Img1_A80_S3_[9][36].png",
+          "RRT-31R_Img1_A80_S3_[10][33].png",
+          "RRT-31R_Img1_A80_S3_[11][32].png",
+          "RRT-31R_Img1_A80_S3_[11][42].png",
+          "RRT-31R_Img1_A80_S3_[12][34].png",
+          "RRT-31R_Img1_A80_S3_[17][29].png",
+          "RRT-31R_Img1_A80_S3_[13][19].png",
+          "RRT-31R_Img1_A80_S3_[12][33].png",
+          "RRT-31R_Img1_A80_S3_[14][28].png",
+          "RRT-31R_Img1_A80_S3_[17][37].png"
+        ]
+      },
+      {
+        "grupo": "G0380",
+        "etiquetas": [
+          1,
+          3
+        ],
+        "archivos": [
+          "RRT-39R_Img1_A80_S2_[15][16].png",
+          "RRT-39R_Img1_A80_S2_[6][19].png",
+          "RRT-39R_Img1_A80_S2_[17][9].png",
+          "RRT-39R_Img1_A80_S2_[6][18].png",
+          "RRT-39R_Img1_A80_S2_[17][12].png",
+          "RRT-39R_Img1_A80_S2_[17][3].png",
+          "RRT-39R_Img1_A80_S2_[6][12].png",
+          "RRT-39R_Img1_A80_S2_[6][17].png"
+        ]
+      },
+      {
+        "grupo": "G0381",
+        "etiquetas": [
+          1,
+          3
+        ],
+        "archivos": [
+          "RRT-39R_Img1_A80_S3_[13][59].png",
+          "RRT-39R_Img1_A80_S3_[8][58].png",
+          "RRT-39R_Img1_A80_S3_[15][13].png",
+          "RRT-39R_Img1_A80_S3_[16][15].png",
+          "RRT-39R_Img1_A80_S3_[2][40].png",
+          "RRT-39R_Img1_A80_S3_[6][51].png",
+          "RRT-39R_Img1_A80_S3_[9][28].png",
+          "RRT-39R_Img1_A80_S3_[9][52].png",
+          "RRT-39R_Img1_A80_S3_[6][39].png",
+          "RRT-39R_Img1_A80_S3_[6][40].png",
+          "RRT-39R_Img1_A80_S3_[3][28].png"
+        ]
+      },
+      {
+        "grupo": "G0175",
+        "etiquetas": [
+          1,
+          3
+        ],
+        "archivos": [
+          "RRT-39R_Img1_A80_S4_[22][34].png",
+          "RRT-39R_Img1_A80_S4_[6][48].png",
+          "RRT-39R_Img1_A80_S4_[6][49].png",
+          "RRT-39R_Img1_A80_S4_[16][3].png",
+          "RRT-39R_Img1_A80_S4_[17][11].png",
+          "RRT-39R_Img1_A80_S4_[1][36].png",
+          "RRT-39R_Img1_A80_S4_[25][44].png",
+          "RRT-39R_Img1_A80_S4_[7][34].png",
+          "RRT-39R_Img1_A80_S4_[5][8].png"
+        ]
+      },
+      {
+        "grupo": "G0270",
+        "etiquetas": [
+          1,
+          3
+        ],
+        "archivos": [
+          "RRT-39R_Img1_A80_S5_[22][10].png",
+          "RRT-39R_Img1_A80_S5_[18][45].png",
+          "RRT-39R_Img1_A80_S5_[19][46].png",
+          "RRT-39R_Img1_A80_S5_[5][52].png",
+          "RRT-39R_Img1_A80_S5_[7][38].png",
+          "RRT-39R_Img1_A80_S5_[9][1].png",
+          "RRT-39R_Img1_A80_S5_[9][35].png",
+          "RRT-39R_Img1_A80_S5_[9][3].png",
+          "RRT-39R_Img1_A80_S5_[9][40].png",
+          "RRT-39R_Img1_A80_S5_[18][48].png",
+          "RRT-39R_Img1_A80_S5_[7][48].png",
+          "RRT-39R_Img1_A80_S5_[12][24].png"
+        ]
+      },
+      {
+        "grupo": "G0383",
+        "etiquetas": [
+          1,
+          3
+        ],
+        "archivos": [
+          "RRT-40R_Img1_A80_S2_[1][82].png",
+          "RRT-40R_Img1_A80_S2_[2][45].png",
+          "RRT-40R_Img1_A80_S2_[2][90].png",
+          "RRT-40R_Img1_A80_S2_[5][63].png",
+          "RRT-40R_Img1_A80_S2_[6][62].png",
+          "RRT-40R_Img1_A80_S2_[18][79].png",
+          "RRT-40R_Img1_A80_S2_[1][31].png",
+          "RRT-40R_Img1_A80_S2_[1][33].png",
+          "RRT-40R_Img1_A80_S2_[4][19].png",
+          "RRT-40R_Img1_A80_S2_[8][58].png",
+          "RRT-40R_Img1_A80_S2_[10][62].png",
+          "RRT-40R_Img1_A80_S2_[18][52].png"
+        ]
+      },
+      {
+        "grupo": "G0384",
+        "etiquetas": [
+          1,
+          3
+        ],
+        "archivos": [
+          "RRT-40R_Img1_A80_S3_[6][30].png",
+          "RRT-40R_Img1_A80_S3_[15][53].png",
+          "RRT-40R_Img1_A80_S3_[16][25].png",
+          "RRT-40R_Img1_A80_S3_[16][32].png",
+          "RRT-40R_Img1_A80_S3_[1][15].png",
+          "RRT-40R_Img1_A80_S3_[1][24].png",
+          "RRT-40R_Img1_A80_S3_[2][13].png",
+          "RRT-40R_Img1_A80_S3_[9][29].png",
+          "RRT-40R_Img1_A80_S3_[1][11].png",
+          "RRT-40R_Img1_A80_S3_[1][34].png",
+          "RRT-40R_Img1_A80_S3_[16][18].png",
+          "RRT-40R_Img1_A80_S3_[16][51].png",
+          "RRT-40R_Img1_A80_S3_[2][9].png"
+        ]
+      },
+      {
+        "grupo": "G0211",
+        "etiquetas": [
+          0,
+          1,
+          3
+        ],
+        "archivos": [
+          "RRT-88R_Img1_A80_S5_[19][3].png",
+          "RRT-88R_Img1_A80_S5_[6][15].png",
+          "RRT-88R_Img1_A80_S5_[18][20].png",
+          "RRT-88R_Img1_A80_S5_[19][19].png",
+          "RRT-88R_Img1_A80_S5_[23][26].png"
+        ]
+      },
+      {
+        "grupo": "G0389",
+        "etiquetas": [
+          1,
+          3
+        ],
+        "archivos": [
+          "RRT-90R_Img1_A80_S2_[2][32].png",
+          "RRT-90R_Img1_A80_S2_[4][31].png",
+          "RRT-90R_Img1_A80_S2_[5][29].png",
+          "RRT-90R_Img1_A80_S2_[10][31].png",
+          "RRT-90R_Img1_A80_S2_[10][5].png",
+          "RRT-90R_Img1_A80_S2_[9][21].png",
+          "RRT-90R_Img1_A80_S2_[10][16].png",
+          "RRT-90R_Img1_A80_S2_[10][24].png",
+          "RRT-90R_Img1_A80_S2_[9][23].png",
+          "RRT-90R_Img1_A80_S2_[9][41].png",
+          "RRT-90R_Img1_A80_S2_[5][13].png",
+          "RRT-90R_Img1_A80_S2_[9][30].png",
+          "RRT-90R_Img1_A80_S2_[9][42].png"
+        ]
+      },
+      {
+        "grupo": "G0390",
+        "etiquetas": [
+          1,
+          3
+        ],
+        "archivos": [
+          "RRT-94R_Img1_A80_S1_[2][19].png",
+          "RRT-94R_Img1_A80_S1_[3][15].png",
+          "RRT-94R_Img1_A80_S1_[10][42].png",
+          "RRT-94R_Img1_A80_S1_[11][20].png",
+          "RRT-94R_Img1_A80_S1_[12][17].png",
+          "RRT-94R_Img1_A80_S1_[12][21].png",
+          "RRT-94R_Img1_A80_S1_[12][40].png",
+          "RRT-94R_Img1_A80_S1_[13][7].png",
+          "RRT-94R_Img1_A80_S1_[2][11].png",
+          "RRT-94R_Img1_A80_S1_[2][29].png",
+          "RRT-94R_Img1_A80_S1_[3][1].png",
+          "RRT-94R_Img1_A80_S1_[5][40].png",
+          "RRT-94R_Img1_A80_S1_[6][33].png",
+          "RRT-94R_Img1_A80_S1_[6][36].png",
+          "RRT-94R_Img1_A80_S1_[6][37].png",
+          "RRT-94R_Img1_A80_S1_[7][29].png",
+          "RRT-94R_Img1_A80_S1_[7][32].png",
+          "RRT-94R_Img1_A80_S1_[7][3].png",
+          "RRT-94R_Img1_A80_S1_[9][28].png",
+          "RRT-94R_Img1_A80_S1_[9][33].png",
+          "RRT-94R_Img1_A80_S1_[9][41].png",
+          "RRT-94R_Img1_A80_S1_[10][38].png",
+          "RRT-94R_Img1_A80_S1_[10][9].png",
+          "RRT-94R_Img1_A80_S1_[13][14].png",
+          "RRT-94R_Img1_A80_S1_[3][35].png",
+          "RRT-94R_Img1_A80_S1_[8][11].png",
+          "RRT-94R_Img1_A80_S1_[9][3].png",
+          "RRT-94R_Img1_A80_S1_[4][19].png",
+          "RRT-94R_Img1_A80_S1_[11][36].png",
+          "RRT-94R_Img1_A80_S1_[12][26].png",
+          "RRT-94R_Img1_A80_S1_[5][42].png"
+        ]
+      },
+      {
+        "grupo": "G0159",
+        "etiquetas": [
+          2,
+          3
+        ],
+        "archivos": [
+          "RRT-26R_Img1_A80_S1_[13][26].png",
+          "RRT-26R_Img1_A80_S1_[1][21].png",
+          "RRT-26R_Img1_A80_S1_[1][33].png",
+          "RRT-26R_Img1_A80_S1_[1][40].png",
+          "RRT-26R_Img1_A80_S1_[4][15].png",
+          "RRT-26R_Img1_A80_S1_[4][23].png",
+          "RRT-26R_Img1_A80_S1_[4][25].png",
+          "RRT-26R_Img1_A80_S1_[4][26].png",
+          "RRT-26R_Img1_A80_S1_[4][9].png",
+          "RRT-26R_Img1_A80_S1_[11][9].png"
+        ]
+      },
+      {
+        "grupo": "G0370",
+        "etiquetas": [
+          2,
+          3
+        ],
+        "archivos": [
+          "RRT-26R_Img1_A80_S3_[10][78].png",
+          "RRT-26R_Img1_A80_S3_[16][74].png",
+          "RRT-26R_Img1_A80_S3_[16][89].png",
+          "RRT-26R_Img1_A80_S3_[17][68].png",
+          "RRT-26R_Img1_A80_S3_[17][70].png",
+          "RRT-26R_Img1_A80_S3_[17][87].png",
+          "RRT-26R_Img1_A80_S3_[1][70].png",
+          "RRT-26R_Img1_A80_S3_[1][72].png",
+          "RRT-26R_Img1_A80_S3_[1][77].png",
+          "RRT-26R_Img1_A80_S3_[3][31].png",
+          "RRT-26R_Img1_A80_S3_[3][32].png",
+          "RRT-26R_Img1_A80_S3_[3][39].png",
+          "RRT-26R_Img1_A80_S3_[3][47].png",
+          "RRT-26R_Img1_A80_S3_[3][62].png",
+          "RRT-26R_Img1_A80_S3_[3][63].png",
+          "RRT-26R_Img1_A80_S3_[17][81].png",
+          "RRT-26R_Img1_A80_S3_[1][79].png",
+          "RRT-26R_Img1_A80_S3_[3][38].png",
+          "RRT-26R_Img1_A80_S3_[3][45].png",
+          "RRT-26R_Img1_A80_S3_[3][48].png",
+          "RRT-26R_Img1_A80_S3_[16][76].png",
+          "RRT-26R_Img1_A80_S3_[17][46].png",
+          "RRT-26R_Img1_A80_S3_[3][21].png",
+          "RRT-26R_Img1_A80_S3_[3][27].png",
+          "RRT-26R_Img1_A80_S3_[3][74].png",
+          "RRT-26R_Img1_A80_S3_[3][80].png",
+          "RRT-26R_Img1_A80_S3_[3][82].png"
+        ]
+      },
+      {
+        "grupo": "G0373",
+        "etiquetas": [
+          2,
+          3
+        ],
+        "archivos": [
+          "RRT-27R_Img1_A80_S2_[8][12].png",
+          "RRT-27R_Img1_A80_S2_[2][18].png",
+          "RRT-27R_Img1_A80_S2_[7][13].png",
+          "RRT-27R_Img1_A80_S2_[2][18].png"
+        ]
+      },
+      {
+        "grupo": "G0259",
+        "etiquetas": [
+          1,
+          2
+        ],
+        "archivos": [
+          "RRT-28R_Img4_A80_S2_[6][16].png",
+          "RRT-28R_Img4_A80_S2_[6][25].png",
+          "RRT-28R_Img4_A80_S2_[3][35].png",
+          "RRT-28R_Img4_A80_S2_[7][44].png"
+        ]
+      },
+      {
+        "grupo": "G0386",
+        "etiquetas": [
+          2,
+          3
+        ],
+        "archivos": [
+          "RRT-42R_Img1_A80_S1_[8][14].png",
+          "RRT-42R_Img1_A80_S1_[13][12].png",
+          "RRT-42R_Img1_A80_S1_[13][17].png",
+          "RRT-42R_Img1_A80_S1_[1][22].png",
+          "RRT-42R_Img1_A80_S1_[1][38].png",
+          "RRT-42R_Img1_A80_S1_[2][19].png",
+          "RRT-42R_Img1_A80_S1_[2][25].png",
+          "RRT-42R_Img1_A80_S1_[13][24].png",
+          "RRT-42R_Img1_A80_S1_[8][12].png",
+          "RRT-42R_Img1_A80_S1_[1][27].png",
+          "RRT-42R_Img1_A80_S1_[1][31].png"
+        ]
+      },
+      {
+        "grupo": "G0351",
+        "etiquetas": [
+          1,
+          2
+        ],
+        "archivos": [
+          "RRT-90R_Img2_A80_S1_[4][35].png",
+          "RRT-90R_Img2_A80_S1_[5][9].png",
+          "RRT-90R_Img2_A80_S1_[4][31].png",
+          "RRT-90R_Img2_A80_S1_[3][25].png",
+          "RRT-90R_Img2_A80_S1_[5][37].png"
+        ]
+      },
+      {
+        "grupo": "G0238",
+        "etiquetas": [
+          0,
+          1
+        ],
+        "archivos": [
+          "RRT-102R_Img4_A80_S5_[19][7].png",
+          "RRT-102R_Img4_A80_S5_[3][10].png",
+          "RRT-102R_Img4_A80_S5_[15][24].png"
+        ]
+      }
+    ],
+    "criterio": "componente conectado por nombre sin coordenadas o SHA-256 idéntico"
+  },
+  "particiones": {
+    "semilla": 42,
+    "metodo": "StratifiedGroupKFold exterior 5 folds (fold 0 test); interior 4 folds (fold 0 validation)",
+    "resumen": {
+      "training": {
+        "imagenes": 1224,
+        "grupos": 240,
+        "por_clase": {
+          "Grieta": 309,
+          "Porosidad": 298,
+          "Falta de penetración": 318,
+          "Sin defecto": 299
+        }
+      },
+      "validation": {
+        "imagenes": 428,
+        "grupos": 79,
+        "por_clase": {
+          "Grieta": 96,
+          "Porosidad": 112,
+          "Falta de penetración": 100,
+          "Sin defecto": 120
+        }
+      },
+      "testing": {
+        "imagenes": 348,
+        "grupos": 76,
+        "por_clase": {
+          "Grieta": 95,
+          "Porosidad": 90,
+          "Falta de penetración": 82,
+          "Sin defecto": 81
+        }
+      }
+    },
+    "grupos_compartidos": 0,
+    "hashes_compartidos": 0,
+    "test_reservado": true
+  }
+}

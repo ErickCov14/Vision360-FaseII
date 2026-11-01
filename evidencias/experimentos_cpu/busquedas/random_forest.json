@@ -1,0 +1,86 @@
+{
+  "modelo": "random_forest",
+  "iteraciones": 10,
+  "cv_folds": 3,
+  "mejor_f1_macro_cv": 0.570352267074183,
+  "mejores_parametros": {
+    "n_estimators": 500,
+    "min_samples_split": 2,
+    "min_samples_leaf": 2,
+    "max_features": "log2",
+    "max_depth": 20,
+    "class_weight": "balanced_subsample"
+  },
+  "entrenamiento_busqueda_segundos": 299.6987494,
+  "validacion": {
+    "accuracy": 0.7149532710280374,
+    "f1_macro": 0.7009219390246024,
+    "recall_defectos_promedio": 0.6310912698412698,
+    "recall_prioritario_promedio": 0.6252083333333334,
+    "defectos_clasificados_sin_defecto": 22,
+    "por_clase": {
+      "0": {
+        "clase": "Grieta",
+        "precision": 0.6363636363636364,
+        "recall": 0.5104166666666666,
+        "f1": 0.5664739884393064,
+        "soporte": 96,
+        "falsos_negativos": 47
+      },
+      "1": {
+        "clase": "Porosidad",
+        "precision": 0.7659574468085106,
+        "recall": 0.6428571428571429,
+        "f1": 0.6990291262135923,
+        "soporte": 112,
+        "falsos_negativos": 40
+      },
+      "2": {
+        "clase": "Falta de penetración",
+        "precision": 0.5967741935483871,
+        "recall": 0.74,
+        "f1": 0.6607142857142857,
+        "soporte": 100,
+        "falsos_negativos": 26
+      },
+      "3": {
+        "clase": "Sin defecto",
+        "precision": 0.8345864661654135,
+        "recall": 0.925,
+        "f1": 0.8774703557312253,
+        "soporte": 120,
+        "falsos_negativos": 9
+      }
+    },
+    "matriz_confusion": [
+      [
+        49,
+        18,
+        23,
+        6
+      ],
+      [
+        9,
+        72,
+        19,
+        12
+      ],
+      [
+        18,
+        4,
+        74,
+        4
+      ],
+      [
+        1,
+        0,
+        8,
+        111
+      ]
+    ],
+    "inferencia_segundos_total": 0.11052579999977752,
+    "inferencia_ms_por_imagen_modelo": 0.2582378504667699
+  },
+  "memoria_proceso_pico_bytes": null,
+  "tamano_modelo_busqueda_bytes": 19252969
+}

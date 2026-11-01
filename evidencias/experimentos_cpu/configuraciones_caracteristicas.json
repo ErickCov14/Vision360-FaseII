@@ -1,0 +1,42 @@
+[
+  {
+    "configuracion": "hog64",
+    "resolucion": "64x64",
+    "dimensiones": 324,
+    "dtype": "float32",
+    "memoria_bytes": 2592000,
+    "memoria_mib": 2.471923828125,
+    "segundos": 5.397338000000218,
+    "origen": "calculado"
+  },
+  {
+    "configuracion": "hog128",
+    "resolucion": "128x128",
+    "dimensiones": 1764,
+    "dtype": "float32",
+    "memoria_bytes": 14112000,
+    "memoria_mib": 13.458251953125,
+    "segundos": 8.85275300000012,
+    "origen": "calculado"
+  },
+  {
+    "configuracion": "lbp128",
+    "resolucion": "128x128",
+    "dimensiones": 416,
+    "dtype": "float32",
+    "memoria_bytes": 3328000,
+    "memoria_mib": 3.173828125,
+    "segundos": 17.55124220000016,
+    "origen": "calculado"
+  },
+  {
+    "configuracion": "hog_lbp128",
+    "resolucion": "128x128",
+    "dimensiones": 2180,
+    "dtype": "float32",
+    "memoria_bytes": 17440000,
+    "memoria_mib": 16.632080078125,
+    "segundos": 0.0,
+    "origen": "concatenación de cachés"
+  }
+]

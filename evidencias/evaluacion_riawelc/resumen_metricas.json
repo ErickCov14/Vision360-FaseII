@@ -1,0 +1,126 @@
+{
+  "imagenes_evaluadas": 400,
+  "aciertos": 268,
+  "errores": 132,
+  "accuracy": 0.67,
+  "f1_macro": 0.6675669553977917,
+  "porcentaje_predicho_porosidad": 28.0,
+  "predicciones_por_categoria": {
+    "Grieta": 71,
+    "Porosidad": 112,
+    "Falta de penetración": 107,
+    "Sin defecto": 110
+  },
+  "ambiguas_margen_top2_menor_0_10": 142,
+  "criterio_ambiguedad": "diferencia entre las dos probabilidades mayores < 0.10",
+  "matriz_confusion_filas_real_columnas_prediccion": [
+    [
+      53,
+      18,
+      27,
+      2
+    ],
+    [
+      9,
+      66,
+      14,
+      11
+    ],
+    [
+      9,
+      17,
+      63,
+      11
+    ],
+    [
+      0,
+      11,
+      3,
+      86
+    ]
+  ],
+  "metricas_por_categoria": [
+    {
+      "clase_id": 0,
+      "clase": "Grieta",
+      "precision": 0.7464788732394366,
+      "recall": 0.53,
+      "f1": 0.6198830409356725,
+      "soporte": 100,
+      "predicciones": 71
+    },
+    {
+      "clase_id": 1,
+      "clase": "Porosidad",
+      "precision": 0.5892857142857143,
+      "recall": 0.66,
+      "f1": 0.6226415094339622,
+      "soporte": 100,
+      "predicciones": 112
+    },
+    {
+      "clase_id": 2,
+      "clase": "Falta de penetración",
+      "precision": 0.5887850467289719,
+      "recall": 0.63,
+      "f1": 0.6086956521739131,
+      "soporte": 100,
+      "predicciones": 107
+    },
+    {
+      "clase_id": 3,
+      "clase": "Sin defecto",
+      "precision": 0.7818181818181819,
+      "recall": 0.86,
+      "f1": 0.819047619047619,
+      "soporte": 100,
+      "predicciones": 110
+    }
+  ],
+  "distribucion_probabilidades": [
+    {
+      "clase_id": 0,
+      "clase": "Grieta",
+      "media": 0.24027687167313957,
+      "desviacion": 0.1818717043916664,
+      "minimo": 0.0056652032112105375,
+      "q25": 0.11725111521360995,
+      "mediana": 0.1928746119145923,
+      "q75": 0.2900102459016393,
+      "maximo": 0.94
+    },
+    {
+      "clase_id": 1,
+      "clase": "Porosidad",
+      "media": 0.2513915882501609,
+      "desviacion": 0.1330671512499748,
+      "minimo": 0.0,
+      "q25": 0.15107496593294223,
+      "mediana": 0.25017907442453685,
+      "q75": 0.33020435368509954,
+      "maximo": 0.82
+    },
+    {
+      "clase_id": 2,
+      "clase": "Falta de penetración",
+      "media": 0.2511971777833319,
+      "desviacion": 0.17456584253574026,
+      "minimo": 0.005,
+      "q25": 0.12007565052742088,
+      "mediana": 0.21225587868041967,
+      "q75": 0.3446448435143288,
+      "maximo": 0.8693731649832505
+    },
+    {
+      "clase_id": 3,
+      "clase": "Sin defecto",
+      "media": 0.25713436229336767,
+      "desviacion": 0.2304926132055715,
+      "minimo": 0.0,
+      "q25": 0.0851974024955066,
+      "mediana": 0.18263943022793727,
+      "q75": 0.364054004000666,
+      "maximo": 0.9230877732046626
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+.git
+.gitignore
+**/__pycache__
+**/*.pyc
+**/.pytest_cache
+backend/model/*.joblib
+!backend/model/random_forest_vision360_cpu_optimizado.joblib
+node_modules
+frontend/dist
+*.zip
+*.docx
+*.pdf
+evidencias

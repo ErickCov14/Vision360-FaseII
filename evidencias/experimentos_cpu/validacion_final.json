@@ -1,0 +1,56 @@
+﻿{
+    "fecha_local":  "2026-10-31T17:16:23.5741053-06:00",
+    "pytest":  {
+                   "tests":  18,
+                   "failures":  0,
+                   "errors":  0,
+                   "skipped":  0
+               },
+    "health":  {
+                   "estado":  "ok",
+                   "modelo_disponible":  true,
+                   "version":  "1.2.0"
+               },
+    "model":  {
+                  "nombre":  "Random Forest CPU optimizado + HOG64",
+                  "dataset":  "RIAWELC",
+                  "clases":  [
+                                 {
+                                     "id":  0,
+                                     "nombre":  "Grieta"
+                                 },
+                                 {
+                                     "id":  1,
+                                     "nombre":  "Porosidad"
+                                 },
+                                 {
+                                     "id":  2,
+                                     "nombre":  "Falta de penetraciÃ³n"
+                                 },
+                                 {
+                                     "id":  3,
+                                     "nombre":  "Sin defecto"
+                                 }
+                             ],
+                  "caracteristicas":  324,
+                  "tamano_entrada":  [
+                                         64,
+                                         64
+                                     ],
+                  "modelo_cargado":  "random_forest_vision360_cpu_optimizado.joblib",
+                  "clases_internas":  [
+                                          0,
+                                          1,
+                                          2,
+                                          3
+                                      ],
+                  "criterio_ambiguedad":  {
+                                              "metrica":  "margen entre las dos probabilidades mayores",
+                                              "operador":  "\u003c",
+                                              "umbral":  0.1,
+                                              "efecto":  "Informa RESULTADO NO CONCLUYENTE sin cambiar la clase predicha."
+                                          },
+                  "uso":  "AcadÃ©mico. RadiografÃ­as pÃºblicas, no imagen Ã³ptica Vision 360."
+              },
+    "docker_ps":  "NAME                          IMAGE                       COMMAND                  SERVICE    CREATED              STATUS                        PORTS\nvision360-faseii-backend-1    vision360-faseii-backend    \"uvicorn app.main:ap…\"   backend    About a minute ago   Up About a minute (healthy)   8000/tcp\nvision360-faseii-frontend-1   vision360-faseii-frontend   \"/docker-entrypoint.…\"   frontend   About a minute ago   Up About a minute             0.0.0.0:8080-\u003e80/tcp, [::]:8080-\u003e80/tcp"
+}

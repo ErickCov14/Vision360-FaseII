@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="620" viewBox="0 0 820 620">
+<rect width="100%" height="100%" fill="#fff"/>
+<style>text{font-family:Arial,sans-serif;fill:#172033}.title{font-size:23px;font-weight:700}.label{font-size:14px}.value{font-size:22px;font-weight:700}</style>
+<text x="410" y="42" text-anchor="middle" class="title">Validación agrupada — extra_trees</text>
+<text x="464" y="82" text-anchor="middle" class="label">Predicción</text>
+<text x="38" y="310" text-anchor="middle" class="label" transform="rotate(-90 38 310)">Clase real</text>
+<text x="326.0" y="105" text-anchor="middle" class="label">Grieta</text>
+<text x="265" y="171.0" text-anchor="end" class="label">Grieta</text>
+<text x="418.0" y="105" text-anchor="middle" class="label">Porosidad</text>
+<text x="265" y="263.0" text-anchor="end" class="label">Porosidad</text>
+<text x="510.0" y="105" text-anchor="middle" class="label">Falta penetr.</text>
+<text x="265" y="355.0" text-anchor="end" class="label">Falta penetr.</text>
+<text x="602.0" y="105" text-anchor="middle" class="label">Sin defecto</text>
+<text x="265" y="447.0" text-anchor="end" class="label">Sin defecto</text>
+<rect x="280" y="120" width="92" height="92" fill="rgb(183,227,245)" stroke="#fff" stroke-width="2"/>
+<text x="326.0" y="174.0" text-anchor="middle" class="value">50</text>
+<rect x="372" y="120" width="92" height="92" fill="rgb(218,240,251)" stroke="#fff" stroke-width="2"/>
+<text x="418.0" y="174.0" text-anchor="middle" class="value">18</text>
+<rect x="464" y="120" width="92" height="92" fill="rgb(215,238,251)" stroke="#fff" stroke-width="2"/>
+<text x="510.0" y="174.0" text-anchor="middle" class="value">21</text>
+<rect x="556" y="120" width="92" height="92" fill="rgb(230,244,253)" stroke="#fff" stroke-width="2"/>
+<text x="602.0" y="174.0" text-anchor="middle" class="value">7</text>
+<rect x="280" y="212" width="92" height="92" fill="rgb(229,243,253)" stroke="#fff" stroke-width="2"/>
+<text x="326.0" y="266.0" text-anchor="middle" class="value">8</text>
+<rect x="372" y="212" width="92" height="92" fill="rgb(169,222,243)" stroke="#fff" stroke-width="2"/>
+<text x="418.0" y="266.0" text-anchor="middle" class="value">63</text>
+<rect x="464" y="212" width="92" height="92" fill="rgb(214,238,251)" stroke="#fff" stroke-width="2"/>
+<text x="510.0" y="266.0" text-anchor="middle" class="value">22</text>
+<rect x="556" y="212" width="92" height="92" fill="rgb(217,239,251)" stroke="#fff" stroke-width="2"/>
+<text x="602.0" y="266.0" text-anchor="middle" class="value">19</text>
+<rect x="280" y="304" width="92" height="92" fill="rgb(226,242,253)" stroke="#fff" stroke-width="2"/>
+<text x="326.0" y="358.0" text-anchor="middle" class="value">11</text>
+<rect x="372" y="304" width="92" height="92" fill="rgb(228,243,253)" stroke="#fff" stroke-width="2"/>
+<text x="418.0" y="358.0" text-anchor="middle" class="value">9</text>
+<rect x="464" y="304" width="92" height="92" fill="rgb(156,218,241)" stroke="#fff" stroke-width="2"/>
+<text x="510.0" y="358.0" text-anchor="middle" class="value">75</text>
+<rect x="556" y="304" width="92" height="92" fill="rgb(232,245,254)" stroke="#fff" stroke-width="2"/>
+<text x="602.0" y="358.0" text-anchor="middle" class="value">5</text>
+<rect x="280" y="396" width="92" height="92" fill="rgb(236,246,254)" stroke="#fff" stroke-width="2"/>
+<text x="326.0" y="450.0" text-anchor="middle" class="value">1</text>
+<rect x="372" y="396" width="92" height="92" fill="rgb(236,246,254)" stroke="#fff" stroke-width="2"/>
+<text x="418.0" y="450.0" text-anchor="middle" class="value">1</text>
+<rect x="464" y="396" width="92" height="92" fill="rgb(229,243,253)" stroke="#fff" stroke-width="2"/>
+<text x="510.0" y="450.0" text-anchor="middle" class="value">8</text>
+<rect x="556" y="396" width="92" height="92" fill="rgb(118,205,235)" stroke="#fff" stroke-width="2"/>
+<text x="602.0" y="450.0" text-anchor="middle" class="value">110</text>
+</svg>

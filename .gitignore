@@ -1,0 +1,12 @@
+__pycache__/
+.pytest_cache/
+.venv/
+*.pyc
+node_modules/
+frontend/dist/
+.DS_Store
+*.log
+.env
+backend/model/*.joblib
+!backend/model/.gitkeep
+!backend/model/random_forest_vision360_cpu_optimizado.joblib

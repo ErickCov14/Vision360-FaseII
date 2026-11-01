@@ -1,0 +1,112 @@
+{
+  "fecha_utc": "2026-10-31T23:15:34.490791+00:00",
+  "api": "http://localhost:8080",
+  "tolerancia_vector": 1e-12,
+  "tolerancia_probabilidades": 5e-07,
+  "clases_modelo": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "imagenes_comparadas": 4,
+  "todas_coinciden": true,
+  "resultados": [
+    {
+      "archivo": "01_grieta.png",
+      "clase_real_id": 0,
+      "vector_caracteristicas": 324,
+      "max_diferencia_vector_original_backend": 0.0,
+      "prediccion_directa_id": 0,
+      "prediccion_api_id": 0,
+      "nombre_api": "Grieta",
+      "probabilidades_directas_por_clase_modelo": {
+        "0": 0.6460439831247212,
+        "1": 0.17492528795476533,
+        "2": 0.08408409101272188,
+        "3": 0.09494663790779144
+      },
+      "probabilidades_api_por_clase_modelo": {
+        "0": 0.646044,
+        "1": 0.174925,
+        "2": 0.084084,
+        "3": 0.094947
+      },
+      "max_diferencia_probabilidades": 3.6209220856397994e-07,
+      "estado_api": "ANÁLISIS COMPLETADO",
+      "coincide": true
+    },
+    {
+      "archivo": "02_porosidad.png",
+      "clase_real_id": 1,
+      "vector_caracteristicas": 324,
+      "max_diferencia_vector_original_backend": 0.0,
+      "prediccion_directa_id": 1,
+      "prediccion_api_id": 1,
+      "nombre_api": "Porosidad",
+      "probabilidades_directas_por_clase_modelo": {
+        "0": 0.08119113622899037,
+        "1": 0.6868946659131528,
+        "2": 0.10775983136232152,
+        "3": 0.12415436649553574
+      },
+      "probabilidades_api_por_clase_modelo": {
+        "0": 0.081191,
+        "1": 0.686895,
+        "2": 0.10776,
+        "3": 0.124154
+      },
+      "max_diferencia_probabilidades": 3.6649553573908644e-07,
+      "estado_api": "ANÁLISIS COMPLETADO",
+      "coincide": true
+    },
+    {
+      "archivo": "03_falta_penetracion.png",
+      "clase_real_id": 2,
+      "vector_caracteristicas": 324,
+      "max_diferencia_vector_original_backend": 0.0,
+      "prediccion_directa_id": 1,
+      "prediccion_api_id": 1,
+      "nombre_api": "Porosidad",
+      "probabilidades_directas_por_clase_modelo": {
+        "0": 0.2997950154630121,
+        "1": 0.3207717268730661,
+        "2": 0.2714267373393801,
+        "3": 0.10800652032454167
+      },
+      "probabilidades_api_por_clase_modelo": {
+        "0": 0.299795,
+        "1": 0.320772,
+        "2": 0.271427,
+        "3": 0.108007
+      },
+      "max_diferencia_probabilidades": 4.796754583397123e-07,
+      "estado_api": "RESULTADO NO CONCLUYENTE",
+      "coincide": true
+    },
+    {
+      "archivo": "04_sin_defecto.png",
+      "clase_real_id": 3,
+      "vector_caracteristicas": 324,
+      "max_diferencia_vector_original_backend": 0.0,
+      "prediccion_directa_id": 3,
+      "prediccion_api_id": 3,
+      "nombre_api": "Sin defecto",
+      "probabilidades_directas_por_clase_modelo": {
+        "0": 0.04488370880599708,
+        "1": 0.0647662707066633,
+        "2": 0.03061567603975782,
+        "3": 0.8597343444475812
+      },
+      "probabilidades_api_por_clase_modelo": {
+        "0": 0.044884,
+        "1": 0.064766,
+        "2": 0.030616,
+        "3": 0.859734
+      },
+      "max_diferencia_probabilidades": 3.444475812353076e-07,
+      "estado_api": "ANÁLISIS COMPLETADO",
+      "coincide": true
+    }
+  ]
+}

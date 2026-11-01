@@ -1,0 +1,162 @@
+{
+  "caracteristicas_seleccionadas": "hog64",
+  "modelo_seleccionado_validacion": "random_forest",
+  "evaluacion_final": {
+    "test_abierto_una_vez_despues_de_seleccion": true,
+    "modelo_seleccionado_en_validacion": "random_forest",
+    "configuracion_caracteristicas": "hog64",
+    "criterio_reemplazo": "F1 macro +0.01, recall prioritario no menor y defectos como sin defecto no mayor, todo contra baseline agrupado",
+    "cumple_criterio_reemplazo": true,
+    "baseline_rf_agrupado": {
+      "entrenamiento_segundos": 3.41149919999998,
+      "metricas_test": {
+        "accuracy": 0.6436781609195402,
+        "f1_macro": 0.6468282705353179,
+        "recall_defectos_promedio": 0.5952883563923358,
+        "recall_prioritario_promedio": 0.6040436456996149,
+        "defectos_clasificados_sin_defecto": 29,
+        "por_clase": {
+          "0": {
+            "clase": "Grieta",
+            "precision": 0.8529411764705882,
+            "recall": 0.6105263157894737,
+            "f1": 0.7116564417177914,
+            "soporte": 95,
+            "falsos_negativos": 37
+          },
+          "1": {
+            "clase": "Porosidad",
+            "precision": 0.5048543689320388,
+            "recall": 0.5777777777777777,
+            "f1": 0.538860103626943,
+            "soporte": 90,
+            "falsos_negativos": 38
+          },
+          "2": {
+            "clase": "Falta de penetración",
+            "precision": 0.5903614457831325,
+            "recall": 0.5975609756097561,
+            "f1": 0.593939393939394,
+            "soporte": 82,
+            "falsos_negativos": 33
+          },
+          "3": {
+            "clase": "Sin defecto",
+            "precision": 0.6914893617021277,
+            "recall": 0.8024691358024691,
+            "f1": 0.7428571428571429,
+            "soporte": 81,
+            "falsos_negativos": 16
+          }
+        },
+        "matriz_confusion": [
+          [
+            58,
+            19,
+            14,
+            4
+          ],
+          [
+            7,
+            52,
+            18,
+            13
+          ],
+          [
+            2,
+            19,
+            49,
+            12
+          ],
+          [
+            1,
+            13,
+            2,
+            65
+          ]
+        ],
+        "inferencia_segundos_total": 0.05560409999998228,
+        "inferencia_ms_por_imagen_modelo": 0.1597818965516732
+      },
+      "archivo": "C:\\Users\\Erick\\Desktop\\Vision360_FaseII\\evidencias\\experimentos_cpu\\modelos\\baseline_rf_agrupado.joblib",
+      "tamano_bytes": 10373337
+    },
+    "candidato": {
+      "entrenamiento_segundos": 4.164500800000042,
+      "calibracion": null,
+      "metricas_test": {
+        "accuracy": 0.6637931034482759,
+        "f1_macro": 0.6669582088156261,
+        "recall_defectos_promedio": 0.6147244805781392,
+        "recall_prioritario_promedio": 0.6109756097560975,
+        "defectos_clasificados_sin_defecto": 27,
+        "por_clase": {
+          "0": {
+            "clase": "Grieta",
+            "precision": 0.890625,
+            "recall": 0.6,
+            "f1": 0.7169811320754716,
+            "soporte": 95,
+            "falsos_negativos": 38
+          },
+          "1": {
+            "clase": "Porosidad",
+            "precision": 0.5333333333333333,
+            "recall": 0.6222222222222222,
+            "f1": 0.5743589743589743,
+            "soporte": 90,
+            "falsos_negativos": 34
+          },
+          "2": {
+            "clase": "Falta de penetración",
+            "precision": 0.6,
+            "recall": 0.6219512195121951,
+            "f1": 0.6107784431137725,
+            "soporte": 82,
+            "falsos_negativos": 31
+          },
+          "3": {
+            "clase": "Sin defecto",
+            "precision": 0.7127659574468085,
+            "recall": 0.8271604938271605,
+            "f1": 0.7657142857142857,
+            "soporte": 81,
+            "falsos_negativos": 14
+          }
+        },
+        "matriz_confusion": [
+          [
+            57,
+            20,
+            15,
+            3
+          ],
+          [
+            4,
+            56,
+            19,
+            11
+          ],
+          [
+            2,
+            16,
+            51,
+            13
+          ],
+          [
+            1,
+            13,
+            0,
+            67
+          ]
+        ],
+        "inferencia_segundos_total": 0.11910630000011224,
+        "inferencia_ms_por_imagen_modelo": 0.34225948275894325
+      },
+      "archivo": "C:\\Users\\Erick\\Desktop\\Vision360_FaseII\\evidencias\\experimentos_cpu\\modelos\\candidato_random_forest_hog64.joblib",
+      "bundle": "C:\\Users\\Erick\\Desktop\\Vision360_FaseII\\evidencias\\experimentos_cpu\\modelos\\bundle_candidato_random_forest_hog64.joblib",
+      "tamano_bytes": 25089385
+    }
+  },
+  "nota_mlflow": "No se instaló MLflow para evitar dependencias y consumo adicionales; los experimentos se registraron en JSON, CSV y Joblib reanudables."
+}

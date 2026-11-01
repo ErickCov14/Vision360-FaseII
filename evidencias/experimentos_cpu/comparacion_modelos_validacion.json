@@ -1,0 +1,348 @@
+{
+  "protocolo": "RandomizedSearchCV agrupada solo en training; selección entre modelos solo en validation",
+  "seleccionado_antes_de_test": "random_forest",
+  "resultados": [
+    {
+      "modelo": "random_forest",
+      "iteraciones": 10,
+      "cv_folds": 3,
+      "mejor_f1_macro_cv": 0.570352267074183,
+      "mejores_parametros": {
+        "n_estimators": 500,
+        "min_samples_split": 2,
+        "min_samples_leaf": 2,
+        "max_features": "log2",
+        "max_depth": 20,
+        "class_weight": "balanced_subsample"
+      },
+      "entrenamiento_busqueda_segundos": 299.6987494,
+      "validacion": {
+        "accuracy": 0.7149532710280374,
+        "f1_macro": 0.7009219390246024,
+        "recall_defectos_promedio": 0.6310912698412698,
+        "recall_prioritario_promedio": 0.6252083333333334,
+        "defectos_clasificados_sin_defecto": 22,
+        "por_clase": {
+          "0": {
+            "clase": "Grieta",
+            "precision": 0.6363636363636364,
+            "recall": 0.5104166666666666,
+            "f1": 0.5664739884393064,
+            "soporte": 96,
+            "falsos_negativos": 47
+          },
+          "1": {
+            "clase": "Porosidad",
+            "precision": 0.7659574468085106,
+            "recall": 0.6428571428571429,
+            "f1": 0.6990291262135923,
+            "soporte": 112,
+            "falsos_negativos": 40
+          },
+          "2": {
+            "clase": "Falta de penetración",
+            "precision": 0.5967741935483871,
+            "recall": 0.74,
+            "f1": 0.6607142857142857,
+            "soporte": 100,
+            "falsos_negativos": 26
+          },
+          "3": {
+            "clase": "Sin defecto",
+            "precision": 0.8345864661654135,
+            "recall": 0.925,
+            "f1": 0.8774703557312253,
+            "soporte": 120,
+            "falsos_negativos": 9
+          }
+        },
+        "matriz_confusion": [
+          [
+            49,
+            18,
+            23,
+            6
+          ],
+          [
+            9,
+            72,
+            19,
+            12
+          ],
+          [
+            18,
+            4,
+            74,
+            4
+          ],
+          [
+            1,
+            0,
+            8,
+            111
+          ]
+        ],
+        "inferencia_segundos_total": 0.11052579999977752,
+        "inferencia_ms_por_imagen_modelo": 0.2582378504667699
+      },
+      "memoria_proceso_pico_bytes": null,
+      "tamano_modelo_busqueda_bytes": 19252969
+    },
+    {
+      "modelo": "extra_trees",
+      "iteraciones": 10,
+      "cv_folds": 3,
+      "mejor_f1_macro_cv": 0.572723347571765,
+      "mejores_parametros": {
+        "n_estimators": 400,
+        "min_samples_split": 10,
+        "min_samples_leaf": 2,
+        "max_features": 0.5,
+        "max_depth": null,
+        "class_weight": null
+      },
+      "entrenamiento_busqueda_segundos": 81.61884069999996,
+      "validacion": {
+        "accuracy": 0.6962616822429907,
+        "f1_macro": 0.6824319963201397,
+        "recall_defectos_promedio": 0.6111111111111112,
+        "recall_prioritario_promedio": 0.6354166666666667,
+        "defectos_clasificados_sin_defecto": 31,
+        "por_clase": {
+          "0": {
+            "clase": "Grieta",
+            "precision": 0.7142857142857143,
+            "recall": 0.5208333333333334,
+            "f1": 0.6024096385542169,
+            "soporte": 96,
+            "falsos_negativos": 46
+          },
+          "1": {
+            "clase": "Porosidad",
+            "precision": 0.6923076923076923,
+            "recall": 0.5625,
+            "f1": 0.6206896551724138,
+            "soporte": 112,
+            "falsos_negativos": 49
+          },
+          "2": {
+            "clase": "Falta de penetración",
+            "precision": 0.5952380952380952,
+            "recall": 0.75,
+            "f1": 0.6637168141592921,
+            "soporte": 100,
+            "falsos_negativos": 25
+          },
+          "3": {
+            "clase": "Sin defecto",
+            "precision": 0.7801418439716312,
+            "recall": 0.9166666666666666,
+            "f1": 0.842911877394636,
+            "soporte": 120,
+            "falsos_negativos": 10
+          }
+        },
+        "matriz_confusion": [
+          [
+            50,
+            18,
+            21,
+            7
+          ],
+          [
+            8,
+            63,
+            22,
+            19
+          ],
+          [
+            11,
+            9,
+            75,
+            5
+          ],
+          [
+            1,
+            1,
+            8,
+            110
+          ]
+        ],
+        "inferencia_segundos_total": 0.09874360000003435,
+        "inferencia_ms_por_imagen_modelo": 0.23070934579447278
+      },
+      "memoria_proceso_pico_bytes": null,
+      "tamano_modelo_busqueda_bytes": 14272537
+    },
+    {
+      "modelo": "svc_rbf",
+      "iteraciones": 10,
+      "cv_folds": 3,
+      "mejor_f1_macro_cv": 0.5699550118613567,
+      "mejores_parametros": {
+        "svc__C": 1.0025956902289566,
+        "svc__class_weight": "balanced",
+        "svc__gamma": 0.006796578090758156
+      },
+      "entrenamiento_busqueda_segundos": 4.825894999999946,
+      "validacion": {
+        "accuracy": 0.6799065420560748,
+        "f1_macro": 0.6643282778750168,
+        "recall_defectos_promedio": 0.5779166666666667,
+        "recall_prioritario_promedio": 0.6168750000000001,
+        "defectos_clasificados_sin_defecto": 26,
+        "por_clase": {
+          "0": {
+            "clase": "Grieta",
+            "precision": 0.5643564356435643,
+            "recall": 0.59375,
+            "f1": 0.5786802030456852,
+            "soporte": 96,
+            "falsos_negativos": 39
+          },
+          "1": {
+            "clase": "Porosidad",
+            "precision": 0.6829268292682927,
+            "recall": 0.5,
+            "f1": 0.5773195876288659,
+            "soporte": 112,
+            "falsos_negativos": 56
+          },
+          "2": {
+            "clase": "Falta de penetración",
+            "precision": 0.6095238095238096,
+            "recall": 0.64,
+            "f1": 0.624390243902439,
+            "soporte": 100,
+            "falsos_negativos": 36
+          },
+          "3": {
+            "clase": "Sin defecto",
+            "precision": 0.8142857142857143,
+            "recall": 0.95,
+            "f1": 0.8769230769230769,
+            "soporte": 120,
+            "falsos_negativos": 6
+          }
+        },
+        "matriz_confusion": [
+          [
+            57,
+            17,
+            16,
+            6
+          ],
+          [
+            21,
+            56,
+            21,
+            14
+          ],
+          [
+            22,
+            8,
+            64,
+            6
+          ],
+          [
+            1,
+            1,
+            4,
+            114
+          ]
+        ],
+        "inferencia_segundos_total": 0.1417343999996774,
+        "inferencia_ms_por_imagen_modelo": 0.33115514018616216
+      },
+      "memoria_proceso_pico_bytes": null,
+      "tamano_modelo_busqueda_bytes": 3063889
+    },
+    {
+      "modelo": "hist_gradient_boosting",
+      "iteraciones": 6,
+      "cv_folds": 3,
+      "mejor_f1_macro_cv": 0.5767671968015688,
+      "mejores_parametros": {
+        "min_samples_leaf": 10,
+        "max_leaf_nodes": 15,
+        "max_iter": 160,
+        "max_depth": 20,
+        "learning_rate": 0.03,
+        "l2_regularization": 0.1,
+        "class_weight": "balanced"
+      },
+      "entrenamiento_busqueda_segundos": 138.27095139999983,
+      "validacion": {
+        "accuracy": 0.677570093457944,
+        "f1_macro": 0.6655868951664987,
+        "recall_defectos_promedio": 0.5920238095238095,
+        "recall_prioritario_promedio": 0.6112500000000001,
+        "defectos_clasificados_sin_defecto": 25,
+        "por_clase": {
+          "0": {
+            "clase": "Grieta",
+            "precision": 0.5625,
+            "recall": 0.5625,
+            "f1": 0.5625,
+            "soporte": 96,
+            "falsos_negativos": 42
+          },
+          "1": {
+            "clase": "Porosidad",
+            "precision": 0.6526315789473685,
+            "recall": 0.5535714285714286,
+            "f1": 0.5990338164251208,
+            "soporte": 112,
+            "falsos_negativos": 50
+          },
+          "2": {
+            "clase": "Falta de penetración",
+            "precision": 0.6346153846153846,
+            "recall": 0.66,
+            "f1": 0.6470588235294118,
+            "soporte": 100,
+            "falsos_negativos": 34
+          },
+          "3": {
+            "clase": "Sin defecto",
+            "precision": 0.8120300751879699,
+            "recall": 0.9,
+            "f1": 0.8537549407114624,
+            "soporte": 120,
+            "falsos_negativos": 12
+          }
+        },
+        "matriz_confusion": [
+          [
+            54,
+            21,
+            15,
+            6
+          ],
+          [
+            19,
+            62,
+            16,
+            15
+          ],
+          [
+            19,
+            11,
+            66,
+            4
+          ],
+          [
+            4,
+            1,
+            7,
+            108
+          ]
+        ],
+        "inferencia_segundos_total": 0.018036899999970046,
+        "inferencia_ms_por_imagen_modelo": 0.042142289719556185
+      },
+      "memoria_proceso_pico_bytes": null,
+      "tamano_modelo_busqueda_bytes": 1614622
+    }
+  ]
+}

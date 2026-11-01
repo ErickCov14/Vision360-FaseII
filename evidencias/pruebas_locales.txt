@@ -1,0 +1,23 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.5, pytest-9.0.2, pluggy-1.6.0 -- /opt/pyvenv/bin/python3
+cachedir: .pytest_cache
+metadata: {'Python': '3.13.5', 'Platform': 'Linux-6.18.57-x86_64-with-glibc2.41', 'Packages': {'pytest': '9.0.2', 'pluggy': '1.6.0'}, 'Plugins': {'anyio': '4.13.0', 'ddtrace': '4.4.0', 'Faker': '40.1.2', 'asyncio': '1.3.0', 'cov': '7.0.0', 'json-report': '1.5.0', 'metadata': '3.1.1'}, 'PLATFORM': 'linux/amd64', 'CI': 'true'}
+rootdir: /mnt/data/Vision360_FaseII
+plugins: anyio-4.13.0, ddtrace-4.4.0, Faker-40.1.2, asyncio-1.3.0, cov-7.0.0, json-report-1.5.0, metadata-3.1.1
+asyncio: mode=Mode.STRICT, debug=False, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collecting ... collected 10 items
+
+backend/tests/test_api.py::test_health PASSED                            [ 10%]
+backend/tests/test_api.py::test_metadata PASSED                          [ 20%]
+backend/tests/test_api.py::test_upload_ok PASSED                         [ 30%]
+backend/tests/test_api.py::test_corrupta PASSED                          [ 40%]
+backend/tests/test_api.py::test_vacia PASSED                             [ 50%]
+backend/tests/test_api.py::test_mime_incorrecto PASSED                   [ 60%]
+backend/tests/test_api.py::test_demasiado_grande PASSED                  [ 70%]
+backend/tests/test_api.py::test_sin_archivo PASSED                       [ 80%]
+backend/tests/test_api.py::test_documentacion PASSED                     [ 90%]
+backend/tests/test_modelo_real.py::test_inferencia_real SKIPPED (Modelo
+no disponible: ejecutar scripts/obtener_modelo.py)                       [100%]
+
+- generated xml file: /mnt/data/Vision360_FaseII/evidencias/resultados_pytest.xml -
+========================= 9 passed, 1 skipped in 0.40s =========================

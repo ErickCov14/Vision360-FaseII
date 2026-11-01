@@ -1,0 +1,15 @@
+ESTADO DE VALIDACIÓN — 31/10/2026
+
+API: 9 PRUEBAS AUTOMÁTICAS APROBADAS
+Modelo real: 1 PRUEBA OMITIDA (no fue posible descargar el binario en este entorno)
+Docker: NO VERIFICADO (Docker Engine no está disponible en el entorno)
+Compilación React/Vite: NO VERIFICADA (dependencias npm no disponibles sin Internet)
+Azure: PROCEDIMIENTO DOCUMENTADO. DESPLIEGUE NO EJECUTADO.
+
+El ZIP incluye scripts de descarga verificada del modelo original y verificación HTTP.
+En una máquina con Docker e Internet, ejecutar:
+  docker compose up --build -d
+  docker compose ps
+  python scripts/verificar_despliegue.py
+
+No interpretar 9 pruebas de contrato aprobadas como certificación del desempeño del clasificador real.

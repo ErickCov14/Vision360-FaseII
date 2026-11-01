@@ -1,0 +1,87 @@
+{
+  "modelo": "hist_gradient_boosting",
+  "iteraciones": 6,
+  "cv_folds": 3,
+  "mejor_f1_macro_cv": 0.5767671968015688,
+  "mejores_parametros": {
+    "min_samples_leaf": 10,
+    "max_leaf_nodes": 15,
+    "max_iter": 160,
+    "max_depth": 20,
+    "learning_rate": 0.03,
+    "l2_regularization": 0.1,
+    "class_weight": "balanced"
+  },
+  "entrenamiento_busqueda_segundos": 138.27095139999983,
+  "validacion": {
+    "accuracy": 0.677570093457944,
+    "f1_macro": 0.6655868951664987,
+    "recall_defectos_promedio": 0.5920238095238095,
+    "recall_prioritario_promedio": 0.6112500000000001,
+    "defectos_clasificados_sin_defecto": 25,
+    "por_clase": {
+      "0": {
+        "clase": "Grieta",
+        "precision": 0.5625,
+        "recall": 0.5625,
+        "f1": 0.5625,
+        "soporte": 96,
+        "falsos_negativos": 42
+      },
+      "1": {
+        "clase": "Porosidad",
+        "precision": 0.6526315789473685,
+        "recall": 0.5535714285714286,
+        "f1": 0.5990338164251208,
+        "soporte": 112,
+        "falsos_negativos": 50
+      },
+      "2": {
+        "clase": "Falta de penetración",
+        "precision": 0.6346153846153846,
+        "recall": 0.66,
+        "f1": 0.6470588235294118,
+        "soporte": 100,
+        "falsos_negativos": 34
+      },
+      "3": {
+        "clase": "Sin defecto",
+        "precision": 0.8120300751879699,
+        "recall": 0.9,
+        "f1": 0.8537549407114624,
+        "soporte": 120,
+        "falsos_negativos": 12
+      }
+    },
+    "matriz_confusion": [
+      [
+        54,
+        21,
+        15,
+        6
+      ],
+      [
+        19,
+        62,
+        16,
+        15
+      ],
+      [
+        19,
+        11,
+        66,
+        4
+      ],
+      [
+        4,
+        1,
+        7,
+        108
+      ]
+    ],
+    "inferencia_segundos_total": 0.018036899999970046,
+    "inferencia_ms_por_imagen_modelo": 0.042142289719556185
+  },
+  "memoria_proceso_pico_bytes": null,
+  "tamano_modelo_busqueda_bytes": 1614622
+}

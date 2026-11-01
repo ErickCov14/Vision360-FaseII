@@ -1,0 +1,15 @@
+{
+  "fecha_inicio_utc": "2026-10-31T21:25:50Z",
+  "cpu_logicos": 8,
+  "ram_total_bytes": 12681138176,
+  "ram_disponible_inicio_bytes": 1410985984,
+  "trabajos_cv": 1,
+  "hilos_internos_arboles": 2,
+  "cache_svc_mb": 256,
+  "gpu_utilizada": false,
+  "cuda_utilizado": false,
+  "python": "3.11.9",
+  "plataforma": "Windows-10-10.0.26200-SP0",
+  "fecha_fin_utc": "2026-10-31T21:35:26Z",
+  "memoria_proceso_pico_bytes": null
+}

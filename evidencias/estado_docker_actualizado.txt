@@ -1,0 +1,54 @@
+﻿Fecha local: 2026-10-31T15:18:23.6072931-06:00
+Docker Server: 29.9.2
+docker compose ps:
+NAME                          IMAGE                       COMMAND                  SERVICE    CREATED          STATUS                    PORTS
+vision360-faseii-backend-1    vision360-faseii-backend    "uvicorn app.main:ap…"   backend    37 seconds ago   Up 34 seconds (healthy)   8000/tcp
+vision360-faseii-frontend-1   vision360-faseii-frontend   "/docker-entrypoint.…"   frontend   35 seconds ago   Up 29 seconds             0.0.0.0:8080->80/tcp, [::]:8080->80/tcp
+backend logs:
+backend-1  | INFO:     Started server process [1]
+backend-1  | INFO:     Waiting for application startup.
+backend-1  | INFO:     Application startup complete.
+backend-1  | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+backend-1  | INFO:     127.0.0.1:57010 - "GET /api/health HTTP/1.1" 200 OK
+backend-1  | INFO:     172.18.0.3:34818 - "GET /api/health HTTP/1.1" 200 OK
+backend-1  | INFO:     172.18.0.3:34830 - "GET /api/model HTTP/1.1" 200 OK
+backend-1  | INFO:     172.18.0.3:34840 - "POST /api/predict HTTP/1.1" 200 OK
+backend-1  | INFO:     172.18.0.3:34844 - "POST /api/predict HTTP/1.1" 200 OK
+backend-1  | INFO:     172.18.0.3:34848 - "POST /api/predict HTTP/1.1" 200 OK
+backend-1  | INFO:     172.18.0.3:34854 - "POST /api/predict HTTP/1.1" 200 OK
+backend-1  | INFO:     172.18.0.3:34868 - "POST /api/predict HTTP/1.1" 200 OK
+backend-1  | INFO:     172.18.0.3:40614 - "POST /api/predict HTTP/1.1" 200 OK
+backend-1  | INFO:     172.18.0.3:40622 - "POST /api/predict HTTP/1.1" 200 OK
+backend-1  | INFO:     172.18.0.3:40628 - "POST /api/predict HTTP/1.1" 200 OK
+backend-1  | INFO:     172.18.0.3:40636 - "POST /api/predict HTTP/1.1" 200 OK
+frontend logs:
+frontend-1  | 2026/10/31 21:17:55 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+frontend-1  | 2026/10/31 21:17:55 [notice] 1#1: start worker processes
+frontend-1  | 2026/10/31 21:17:55 [notice] 1#1: start worker process 36
+frontend-1  | 2026/10/31 21:17:55 [notice] 1#1: start worker process 37
+frontend-1  | 2026/10/31 21:17:55 [notice] 1#1: start worker process 38
+frontend-1  | 2026/10/31 21:17:55 [notice] 1#1: start worker process 39
+frontend-1  | 2026/10/31 21:17:55 [notice] 1#1: start worker process 40
+frontend-1  | 2026/10/31 21:17:55 [notice] 1#1: start worker process 41
+frontend-1  | 2026/10/31 21:17:55 [notice] 1#1: start worker process 42
+frontend-1  | 2026/10/31 21:17:55 [notice] 1#1: start worker process 43
+frontend-1  | 172.18.0.1 - - [31/Oct/2026:21:17:59 +0000] "GET /api/health HTTP/1.1" 200 58 "-" "Python-urllib/3.11" "-"
+frontend-1  | 172.18.0.1 - - [31/Oct/2026:21:17:59 +0000] "GET /api/model HTTP/1.1" 200 577 "-" "Python-urllib/3.11" "-"
+frontend-1  | 172.18.0.1 - - [31/Oct/2026:21:18:00 +0000] "POST /api/predict HTTP/1.1" 200 607 "-" "Python-urllib/3.11" "-"
+frontend-1  | 2026/10/31 21:18:00 [warn] 40#40: *7 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 172.18.0.1, server: _, request: "POST /api/predict HTTP/1.1", host: "localhost:8080"
+frontend-1  | 172.18.0.1 - - [31/Oct/2026:21:18:00 +0000] "POST /api/predict HTTP/1.1" 200 627 "-" "Python-urllib/3.11" "-"
+frontend-1  | 2026/10/31 21:18:00 [warn] 41#41: *9 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 172.18.0.1, server: _, request: "POST /api/predict HTTP/1.1", host: "localhost:8080"
+frontend-1  | 172.18.0.1 - - [31/Oct/2026:21:18:00 +0000] "POST /api/predict HTTP/1.1" 200 630 "-" "Python-urllib/3.11" "-"
+frontend-1  | 2026/10/31 21:18:00 [warn] 39#39: *11 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000003, client: 172.18.0.1, server: _, request: "POST /api/predict HTTP/1.1", host: "localhost:8080"
+frontend-1  | 172.18.0.1 - - [31/Oct/2026:21:18:00 +0000] "POST /api/predict HTTP/1.1" 200 630 "-" "Python-urllib/3.11" "-"
+frontend-1  | 2026/10/31 21:18:00 [warn] 43#43: *13 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000004, client: 172.18.0.1, server: _, request: "POST /api/predict HTTP/1.1", host: "localhost:8080"
+frontend-1  | 172.18.0.1 - - [31/Oct/2026:21:18:00 +0000] "POST /api/predict HTTP/1.1" 200 625 "-" "Python-urllib/3.11" "-"
+frontend-1  | 172.18.0.1 - - [31/Oct/2026:21:18:00 +0000] "GET / HTTP/1.1" 200 421 "-" "curl/8.21.0" "-"
+frontend-1  | 2026/10/31 21:18:23 [warn] 36#36: *16 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000005, client: 172.18.0.1, server: _, request: "POST /api/predict HTTP/1.1", host: "localhost:8080"
+frontend-1  | 172.18.0.1 - - [31/Oct/2026:21:18:23 +0000] "POST /api/predict HTTP/1.1" 200 627 "-" "Python-urllib/3.11" "-"
+frontend-1  | 2026/10/31 21:18:23 [warn] 36#36: *18 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000006, client: 172.18.0.1, server: _, request: "POST /api/predict HTTP/1.1", host: "localhost:8080"
+frontend-1  | 172.18.0.1 - - [31/Oct/2026:21:18:23 +0000] "POST /api/predict HTTP/1.1" 200 630 "-" "Python-urllib/3.11" "-"
+frontend-1  | 2026/10/31 21:18:23 [warn] 36#36: *20 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000007, client: 172.18.0.1, server: _, request: "POST /api/predict HTTP/1.1", host: "localhost:8080"
+frontend-1  | 172.18.0.1 - - [31/Oct/2026:21:18:23 +0000] "POST /api/predict HTTP/1.1" 200 630 "-" "Python-urllib/3.11" "-"
+frontend-1  | 2026/10/31 21:18:23 [warn] 36#36: *22 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000008, client: 172.18.0.1, server: _, request: "POST /api/predict HTTP/1.1", host: "localhost:8080"
+frontend-1  | 172.18.0.1 - - [31/Oct/2026:21:18:23 +0000] "POST /api/predict HTTP/1.1" 200 625 "-" "Python-urllib/3.11" "-"

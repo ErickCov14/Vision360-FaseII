@@ -1,0 +1,76 @@
+{
+  "fecha_utc": "2026-10-31T20:34:44.424446+00:00",
+  "url": "http://localhost:8080",
+  "tipo_prueba": "Integración HTTP con imagen sintética, no desempeño predictivo",
+  "health": {
+    "estado": "ok",
+    "modelo_disponible": true,
+    "version": "1.0.0"
+  },
+  "metadata": {
+    "nombre": "Random Forest + HOG",
+    "dataset": "RIAWELC",
+    "clases": [
+      {
+        "id": 0,
+        "nombre": "Grieta"
+      },
+      {
+        "id": 1,
+        "nombre": "Porosidad"
+      },
+      {
+        "id": 2,
+        "nombre": "Falta de penetración"
+      },
+      {
+        "id": 3,
+        "nombre": "Sin defecto"
+      }
+    ],
+    "caracteristicas": 324,
+    "tamano_entrada": [
+      64,
+      64
+    ],
+    "modelo_cargado": "random_forest_vision360.joblib",
+    "clases_internas": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "uso": "Académico. Radiografías públicas, no imagen óptica Vision 360."
+  },
+  "prediccion": {
+    "clase_id": 0,
+    "clase": "Grieta",
+    "confianza_estimada": 0.37,
+    "probabilidades": [
+      {
+        "id": 0,
+        "clase": "Grieta",
+        "probabilidad": 0.37
+      },
+      {
+        "id": 1,
+        "clase": "Porosidad",
+        "probabilidad": 0.37
+      },
+      {
+        "id": 2,
+        "clase": "Falta de penetración",
+        "probabilidad": 0.215
+      },
+      {
+        "id": 3,
+        "clase": "Sin defecto",
+        "probabilidad": 0.045
+      }
+    ],
+    "resultado": "Posible defecto: requiere revisión",
+    "advertencia": "Demostración académica con radiografías RIAWELC. No es un dictamen industrial. Las probabilidades no están calibradas.",
+    "modelo": "Random Forest + HOG (Actividad 5)"
+  },
+  "resultado": "APROBADO"
+}

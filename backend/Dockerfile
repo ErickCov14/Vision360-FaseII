@@ -5,9 +5,7 @@ COPY backend/requirements.txt /tmp/requirements.txt
 RUN python -m pip install --no-cache-dir -r /tmp/requirements.txt
 COPY backend/app /app/app
 COPY scripts/obtener_modelo.py /app/scripts/obtener_modelo.py
-# Se descarga del repositorio público del propio proyecto y se verifica el SHA de Git.
 RUN python /app/scripts/obtener_modelo.py --dest /app/model/random_forest_vision360.joblib
-# El modelo original se conserva; el candidato CPU validado se incluye con nombre independiente.
 COPY backend/model/random_forest_vision360_cpu_optimizado.joblib /app/model/random_forest_vision360_cpu_optimizado.joblib
 ENV MODEL_PATH=/app/model/random_forest_vision360_cpu_optimizado.joblib \
     MODEL_NAME="Random Forest CPU optimizado + HOG64"

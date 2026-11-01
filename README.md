@@ -22,22 +22,38 @@ Se compararon HOG64, HOG128, LBP128 y HOG+LBP, además de Random Forest, Extra T
 
 El modelo optimizado se ejecuta solo con CPU y está activo en Docker como `random_forest_vision360_cpu_optimizado.joblib`. El modelo original se conserva con su nombre anterior. Véase `evidencias/experimentos_cpu/REPORTE_OPTIMIZACION_CPU.md` para el protocolo, parámetros, matrices y limitaciones.
 
-### Resultado medido del artefacto final
+### RESULTADOS FINALES DEL MODELO OPTIMIZADO
 
-| Clase | Precision | Recall | F1 | Predicciones |
-|---|---:|---:|---:|---:|
-| Grieta | 0.7465 | 0.5300 | 0.6199 | 71 |
-| Porosidad | 0.5893 | 0.6600 | 0.6226 | 112 |
-| Falta de penetración | 0.5888 | 0.6300 | 0.6087 | 107 |
-| Sin defecto | 0.7818 | 0.8600 | 0.8190 | 110 |
+Se realizó una nueva evaluación utilizando particiones agrupadas por radiografía para reducir la contaminación entre los conjuntos de datos.
 
-- Imágenes: 400; aciertos: 268; errores: 132.
-- Accuracy: `0.6700`; F1 macro: `0.6676`.
-- Porcentaje predicho como porosidad: `28.0 %` (frente a 25 % de prevalencia real en este conjunto balanceado).
-- Matriz de confusión (filas reales, columnas predichas en orden 0, 1, 2, 3): `[[53,18,27,2],[9,66,14,11],[9,17,63,11],[0,11,3,86]]`.
+Se identificaron 395 grupos y se utilizaron 2,000 imágenes distribuidas en 1,224 para entrenamiento, 428 para validación y 348 para prueba.
 
-Estos resultados corresponden al modelo final reentrenado con entrenamiento + validación. No se utilizaron las imágenes de prueba para ajustar hiperparámetros, umbrales o entrenamiento. No se sustituyó el modelo porque la integración es correcta y no se realizó una comparación de candidatos bajo un nuevo protocolo de validación.
+No se encontraron grupos ni hashes compartidos entre particiones.
 
+| Métrica | Random Forest baseline | Random Forest optimizado |
+|---|---:|---:|
+| Accuracy | 0.6437 | 0.6638 |
+| F1 macro | 0.6468 | 0.6670 |
+| Recall grieta | 0.6105 | 0.6000 |
+| Recall falta de penetración | 0.5976 | 0.6220 |
+| Defectos clasificados como sin defecto | 29 | 27 |
+
+El modelo seleccionado utiliza 500 árboles, profundidad máxima de 20, min_samples_leaf de 2, max_features log2 y class_weight balanced_subsample.
+
+La optimización mejoró el desempeño general y redujo los defectos clasificados como piezas sin defecto. Sin embargo, el recall de grietas disminuyó ligeramente.
+
+Las métricas históricas obtenidas con 400 imágenes pertenecen a un protocolo anterior y no deben compararse directamente con estos resultados.
+
+### VALIDACION DEL DESPLIEGUE
+
+- 18 pruebas automatizadas aprobadas.
+- Ninguna prueba fallida ni omitida.
+- Backend FastAPI funcionando correctamente.
+- Frontend React disponible en localhost:8080.
+- Contenedores Docker operativos.
+- Modelo optimizado cargado correctamente.
+- Consistencia entre inferencia directa y API HTTP.
+- Ejecución mediante CPU, sin requerir GPU.
 ## REQUISITOS
 
 - Docker Desktop con Compose v2 y conexión a Internet **durante la primera construcción**.
@@ -138,14 +154,14 @@ python scripts/obtener_modelo.py
 En Linux/macOS:
 
 ```bash
-export MODEL_PATH="$(pwd)/backend/model/random_forest_vision360.joblib"
+export MODEL_PATH="$(pwd)/backend/model/random_forest_vision360_cpu_optimizado.joblib"
 PYTHONPATH=backend uvicorn app.main:app --host 0.0.0.0 --port 8000
 ```
 
 En PowerShell:
 
 ```powershell
-$env:MODEL_PATH=(Resolve-Path backend/model/random_forest_vision360.joblib).Path
+$env:MODEL_PATH=(Resolve-Path backend/model/random_forest_vision360_cpu_optimizado.joblib).Path
 $env:PYTHONPATH="backend"
 uvicorn app.main:app --host 0.0.0.0 --port 8000
 ```
@@ -169,7 +185,7 @@ PYTHONPATH=backend pytest backend/tests -v
 
 En PowerShell: `$env:PYTHONPATH="backend"; pytest backend/tests -v`.
 
-`test_api.py` emplea un modelo determinista exclusivamente para los contratos HTTP y los casos de error. `test_modelo_real.py` inspecciona el artefacto verdadero. `test_integracion_real.py` procesa cuatro imágenes públicas, una por carpeta de origen, y compara el vector HOG, la predicción y las probabilidades entre la implementación de referencia y FastAPI. La ejecución documentada produjo **17 pruebas aprobadas, 0 omitidas y 0 fallidas**.
+`test_api.py` emplea un modelo determinista exclusivamente para los contratos HTTP y los casos de error. `test_modelo_real.py` inspecciona el artefacto verdadero. `test_integracion_real.py` procesa cuatro imágenes públicas, una por carpeta de origen, y compara el vector HOG, la predicción y las probabilidades entre la implementación de referencia y FastAPI. La ejecución documentada produjo **18 pruebas aprobadas, 0 omitidas y 0 fallidas**.
 
 Para repetir la evaluación de 400 imágenes, obtener el repositorio público original y ejecutar:
 
@@ -188,7 +204,7 @@ python scripts/comparar_modelo_api.py
 
 ## REPRODUCIBILIDAD Y LIMITACIONES
 
-- Modelo original: Random Forest con HOG de la Actividad 5; no se entrenó otro modelo para esta fase.
+- Modelo activo: Random Forest optimizado con CPU y HOG64. El modelo original de la Actividad 5 se conserva como referencia.
 - Pipeline previamente guardado como Joblib. Mantener scikit-learn 1.6.1, scikit-image 0.25.2 y dependencias fijadas.
 - Las métricas históricas de 0.6534 F1 macro en validación y 0.6627 F1 macro en prueba correspondieron al modelo **anterior al reentrenamiento final** de 1,600 imágenes. No son métricas verificadas del artefacto final.
 - No hay garantías de calibración de probabilidades. El margen de ambigüedad es una regla de presentación documentada, no un umbral de aceptación industrial.
